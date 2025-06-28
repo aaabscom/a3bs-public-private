@@ -2,18 +2,27 @@
 
 Public documentation for A Cubed's GIMP 3 automation tools and plugins. Expectations include structured, versioned documentation for the GIMP 3 Python plugin ecosystem created by **A Cubed Business Solutions** (A³BS).
 
+📘 [View Live Docs](https://aaabscom.github.io/a3bs-public/)
+
 ## 📂 Structure
 
 ```plaintext
 a3bs-public/
-└── gimp/
-└── docs/
-├── index.md         # Main landing page for GitHub Pages
+├── _config.yaml           # GitHub Pages config
+├── index.md               # Main landing page (merged intro + links)
+├── assets/                # Site assets (CSS, images, favicon, etc.)
+│   ├── css/
+│   └── images/
 ├── docs/
-│   ├── gimp-arch/   # Auto-documented GIMP classes
-│   ├── install/     # GIMP 3 install guides
-│   └── overviews/   # Plugin overviews and summaries
-└── manifest.log     # Tracks cleaned file revisions
+│   ├── index.md           # GIMP Architecture index (linked from root)
+│   ├── gimp-arch/         # Auto-documented GIMP classes (Gegl, Gimp, GimpUi)
+│   │   ├── Gegl/
+│   │   ├── Gimp/
+│   │   └── GimpUi/
+│   ├── install/           # GIMP 3 install guides
+│   └── overviews/         # Plugin overviews and summaries
+├── manifest.log           # Tracks cleaned file revisions
+└── README.md              # Repo overview and contribution guide
 ```
 
 ## 🔄 Workflow
@@ -36,7 +45,7 @@ Ensure the following exists at the repo root:
 Baseline 0 committed. `a3bs-clean/` is fully synchronized and documented.
 
 
-📄 View the live docs site: ![GitHub Pages](https://img.shields.io/github/deployments/aaabscom/a3bs-gimp-docs/github-pages?label=docs&logo=github)
+📄 View the live docs site: [GitHub Pages](https://aaabscom.github.io/a3bs-public/)
 
 ---
 
