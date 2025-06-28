@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-		<head>
-		  <meta charset="UTF-8">
-		  <title>{{ page.title }}</title>
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=1' | absolute_url }}">
-		</head>
-		<body>
-			<div class="kofi-button">
-				<a href="https://ko-fi.com/aaabscom" target="_blank" rel="noopener noreferrer">
-				<img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support on Ko-fi">
-				</a>
-			</div>
-			<div class="main-container">
-			{{ content }}
-			</div>
-		</body>
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
+</head>
+<body>
+  <div class="nav-wrapper">
+    <a href="/a3bs-public/">← Back to Main Index</a>
+    <span class="spacer"></span>
+    <a href="https://aaabs.com">To A3BS Website →</a>
+  </div>
+
+  <div class="main-container">
+    {{ content }}
+  </div>
+
+  <div style="margin-top: 2rem; text-align: center;">
+    <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+    <script>
+      kofiWidget2.init('Support us on Ko-fi', '#4a8d60', 'X8X5YH7JY');
+      kofiWidget2.draw();
+    </script>
+  </div>
+</body>
 </html>

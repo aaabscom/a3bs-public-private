@@ -4,13 +4,13 @@ Public documentation for A Cubed's GIMP 3 automation tools and plugins. Expectat
 
 📘 [View Live Docs](https://aaabscom.github.io/a3bs-public/)
 
-[![Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/aaabscom)
+> ⭐ If you find this project helpful, please consider [starring it](https://github.com/aaabscom/a3bs-public) to support visibility and development!
+[![GitHub stars](https://img.shields.io/github/stars/aaabscom/a3bs-public.svg)](https://github.com/aaabscom/a3bs-public/stargazers)
 
+[![Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/aaabscom)
 Help support the A³BS GIMP 3 documentation project!  
 Every donation helps us build better tools for the open-source creative community. 🙌
 
-> ⭐ If you find this project helpful, please consider [starring it](https://github.com/aaabscom/a3bs-public) to support visibility and development!
-![GitHub stars](https://img.shields.io/github/stars/aaabscom/a3bs-public?style=social)
 
 ## 📂 Structure
 
