@@ -71,5 +71,7 @@ _No properties found_
 <a name="signals-"></a>
 _No signal metadata found (not exposed by GI)_
 <br>- None found
-<br>† Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
+
+
+† Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

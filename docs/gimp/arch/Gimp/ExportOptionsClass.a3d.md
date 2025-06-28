@@ -55,4 +55,3 @@ _No properties found_
 <a name="signals-"></a>
 _No signal metadata found (not exposed by GI)_
 <br>- None found
-<br>

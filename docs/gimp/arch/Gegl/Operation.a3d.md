@@ -183,5 +183,7 @@ _Failed to introspect properties: Gegl.Operation.list_properties() takes exactly
 #### 📣 Signals
 <a name="signals-"></a>
 <br>- None found
-<br>† Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
+
+
+† Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

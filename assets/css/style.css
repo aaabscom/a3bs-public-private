@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #fcbf49;
+  color: #08a1fe;
   text-decoration: underline;
 }
 
@@ -34,16 +34,6 @@ li {
   margin-bottom: 0.5em;
 }
 
-a {
-  color: #a2d2ff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #fcbf49;
-  text-decoration: underline;
-}
-
 .nav-wrapper a {
   color: #ffffff;
   font-weight: 500;
@@ -51,7 +41,19 @@ a:hover {
 }
 
 .nav-wrapper a:hover {
-  color: #fcbf49;
+  color: #08a1fe;
   text-decoration: underline;
 }
 
+.nav-wrapper {
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
