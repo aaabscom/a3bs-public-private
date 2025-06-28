@@ -25,138 +25,165 @@ layout: default
     - [ 🔹 steal:Methods](#steal-methods)
     - [ 🔹 stop:Methods](#stop-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
+  - [ 🔒 Private:Methods](#private-methods)
+    - [ 🔒 ref:Methods](#ref-methods)
+    - [ 🔒 unsupported:Methods](#unsupported-methods)
+    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
+- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: TileHandler
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 bind Methods
 <a name="bind-methods"></a>
-⚠️ **bind_property** _Unavailable_ †
-⚠️ **bind_property_full** _Unavailable_ †
+⚠️ **bind_property** _Unavailable_ †<br>
+⚠️ **bind_property_full** _Unavailable_ †<br>
 - #### 🔹 connect Methods
 <a name="connect-methods"></a>
-⚠️ **connect** _Unavailable_ †
-⚠️ **connect_after** _Unavailable_ †
-⚠️ **connect_data** _Unavailable_ †
-⚠️ **connect_object** _Unavailable_ †
-⚠️ **connect_object_after** _Unavailable_ †
+⚠️ **connect** _Unavailable_ †<br>
+⚠️ **connect_after** _Unavailable_ †<br>
+⚠️ **connect_data** _Unavailable_ †<br>
+⚠️ **connect_object** _Unavailable_ †<br>
+⚠️ **connect_object_after** _Unavailable_ †<br>
 - #### 🔹 damage Methods
 <a name="damage-methods"></a>
-⚠️ **damage_rect** _Unavailable_ †
-⚠️ **damage_tile** _Unavailable_ †
+⚠️ **damage_rect** _Unavailable_ †<br>
+⚠️ **damage_tile** _Unavailable_ †<br>
 - #### 🔹 disconnect Methods
 <a name="disconnect-methods"></a>
-⚠️ **disconnect** _Unavailable_ †
-⚠️ **disconnect_by_func** _Unavailable_ †
+⚠️ **disconnect** _Unavailable_ †<br>
+⚠️ **disconnect_by_func** _Unavailable_ †<br>
 - #### 🔹 emit Methods
 <a name="emit-methods"></a>
-⚠️ **emit** _Unavailable_ †
-⚠️ **emit_stop_by_name** _Unavailable_ †
+⚠️ **emit** _Unavailable_ †<br>
+⚠️ **emit_stop_by_name** _Unavailable_ †<br>
 - #### 🔹 get Methods
 <a name="get-methods"></a>
-⚠️ **get_data** _Unavailable_ †
-⚠️ **get_properties** _Unavailable_ †
-⚠️ **get_property** _Unavailable_ †
-⚠️ **get_qdata** _Unavailable_ †
+⚠️ **get_data** _Unavailable_ †<br>
+⚠️ **get_properties** _Unavailable_ †<br>
+⚠️ **get_property** _Unavailable_ †<br>
+⚠️ **get_qdata** _Unavailable_ †<br>
 - #### 🔹 handler Methods
 <a name="handler-methods"></a>
-⚠️ **handler_block** _Unavailable_ †
-⚠️ **handler_block_by_func** _Unavailable_ †
-⚠️ **handler_disconnect** _Unavailable_ †
-⚠️ **handler_is_connected** _Unavailable_ †
-⚠️ **handler_unblock** _Unavailable_ †
-⚠️ **handler_unblock_by_func** _Unavailable_ †
+⚠️ **handler_block** _Unavailable_ †<br>
+⚠️ **handler_block_by_func** _Unavailable_ †<br>
+⚠️ **handler_disconnect** _Unavailable_ †<br>
+⚠️ **handler_is_connected** _Unavailable_ †<br>
+⚠️ **handler_unblock** _Unavailable_ †<br>
+⚠️ **handler_unblock_by_func** _Unavailable_ †<br>
 - #### 🔹 install Methods
 <a name="install-methods"></a>
-⚠️ **install_properties** _Unavailable_ †
-⚠️ **install_property** _Unavailable_ †
+⚠️ **install_properties** _Unavailable_ †<br>
+⚠️ **install_property** _Unavailable_ †<br>
 - #### 🔹 interface Methods
 <a name="interface-methods"></a>
-⚠️ **interface_find_property** _Unavailable_ †
-⚠️ **interface_install_property** _Unavailable_ †
-⚠️ **interface_list_properties** _Unavailable_ †
+⚠️ **interface_find_property** _Unavailable_ †<br>
+⚠️ **interface_install_property** _Unavailable_ †<br>
+⚠️ **interface_list_properties** _Unavailable_ †<br>
 - #### 🔹 notify Methods
 <a name="notify-methods"></a>
-⚠️ **notify** _Unavailable_ †
-⚠️ **notify_by_pspec** _Unavailable_ †
+⚠️ **notify** _Unavailable_ †<br>
+⚠️ **notify_by_pspec** _Unavailable_ †<br>
 - #### 🔹 ref Methods
 <a name="ref-methods"></a>
-⚠️ **ref** _Unavailable_ †
-⚠️ **ref_sink** _Unavailable_ †
+⚠️ **ref** _Unavailable_ †<br>
+⚠️ **ref_sink** _Unavailable_ †<br>
 - #### 🔹 replace Methods
 <a name="replace-methods"></a>
-⚠️ **replace_data** _Unavailable_ †
-⚠️ **replace_qdata** _Unavailable_ †
+⚠️ **replace_data** _Unavailable_ †<br>
+⚠️ **replace_qdata** _Unavailable_ †<br>
 - #### 🔹 set Methods
 <a name="set-methods"></a>
-⚠️ **set_data** _Unavailable_ †
-⚠️ **set_properties** _Unavailable_ †
-⚠️ **set_property** _Unavailable_ †
-⚠️ **set_source** _Unavailable_ †
+⚠️ **set_data** _Unavailable_ †<br>
+⚠️ **set_properties** _Unavailable_ †<br>
+⚠️ **set_property** _Unavailable_ †<br>
+⚠️ **set_source** _Unavailable_ †<br>
 - #### 🔹 steal Methods
 <a name="steal-methods"></a>
-⚠️ **steal_data** _Unavailable_ †
-⚠️ **steal_qdata** _Unavailable_ †
+⚠️ **steal_data** _Unavailable_ †<br>
+⚠️ **steal_qdata** _Unavailable_ †<br>
 - #### 🔹 stop Methods
 <a name="stop-methods"></a>
-⚠️ **stop_emission** _Unavailable_ †
-⚠️ **stop_emission_by_name** _Unavailable_ †
+⚠️ **stop_emission** _Unavailable_ †<br>
+⚠️ **stop_emission_by_name** _Unavailable_ †<br>
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **chain** _Unavailable_ †
-⚠️ **compat_control** _Unavailable_ †
-⚠️ **find_property** _Unavailable_ †
-⚠️ **force_floating** _Unavailable_ †
-⚠️ **freeze_notify** _Unavailable_ †
-⚠️ **getv** _Unavailable_ †
-⚠️ **is_floating** _Unavailable_ †
-⚠️ **list_properties** _Unavailable_ †
-⚠️ **lock** _Unavailable_ †
-⚠️ **newv** _Unavailable_ †
-⚠️ **override_property** _Unavailable_ †
-⚠️ **run_dispose** _Unavailable_ †
-⚠️ **thaw_notify** _Unavailable_ †
-⚠️ **unlock** _Unavailable_ †
-⚠️ **unref** _Unavailable_ †
-⚠️ **watch_closure** _Unavailable_ †
+⚠️ **chain** _Unavailable_ †<br>
+⚠️ **compat_control** _Unavailable_ †<br>
+⚠️ **find_property** _Unavailable_ †<br>
+⚠️ **force_floating** _Unavailable_ †<br>
+⚠️ **freeze_notify** _Unavailable_ †<br>
+⚠️ **getv** _Unavailable_ †<br>
+⚠️ **is_floating** _Unavailable_ †<br>
+⚠️ **list_properties** _Unavailable_ †<br>
+⚠️ **lock** _Unavailable_ †<br>
+⚠️ **newv** _Unavailable_ †<br>
+⚠️ **override_property** _Unavailable_ †<br>
+⚠️ **run_dispose** _Unavailable_ †<br>
+⚠️ **thaw_notify** _Unavailable_ †<br>
+⚠️ **unlock** _Unavailable_ †<br>
+⚠️ **unref** _Unavailable_ †<br>
+⚠️ **watch_closure** _Unavailable_ †<br>
+⚠️ **weak_ref** _Unavailable_ †<br>
+### 🔒 Private Methods
+<a name="private-methods"></a>
+- #### 🔒 ref Methods
+<a name="ref-methods"></a>
+⚠️ **_ref** _Unavailable_ †<br>
+⚠️ **_ref_sink** _Unavailable_ †<br>
+- #### 🔒 unsupported Methods
+<a name="unsupported-methods"></a>
+⚠️ **_unsupported_data_method** _Unavailable_ †<br>
+⚠️ **_unsupported_method** _Unavailable_ †<br>
+- #### 🔒 ungrouped Methods
+<a name="ungrouped-methods"></a>
+⚠️ **_force_floating** _Unavailable_ †<br>
+⚠️ **_unref** _Unavailable_ †<br>
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(self, /, *args, **kwargs)`
-  - **__init_subclass__** `()`
+  - **__init__** `(self, /, *args, **kwargs)`<br>
+  - **__init_subclass__** `()`<br>
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`
-  - **__reduce_ex__** `(self, protocol, /)`
+  - **__reduce__** `(self, /)`<br>
+  - **__reduce_ex__** `(self, protocol, /)`<br>
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-  - **__class__** `(name, bases, dict_)`
-⚠️ **__copy__** _Unavailable_ †
-⚠️ **__deepcopy__** _Unavailable_ †
-  - **__delattr__** `(self, name, /)`
-  - **__dir__** `(self, /)`
-  - **__eq__** `(self, value, /)`
-  - **__format__** `(self, format_spec, /)`
-  - **__ge__** `(self, value, /)`
-  - **__getattribute__** `(self, name, /)`
-  - **__getstate__** `(self, /)`
-  - **__gt__** `(self, value, /)`
-  - **__hash__** `(self, /)`
-  - **__le__** `(self, value, /)`
-  - **__lt__** `(self, value, /)`
-  - **__ne__** `(self, value, /)`
-  - **__new__** `(*args, **kwargs)`
-  - **__repr__** `(self, /)`
-  - **__setattr__** `(self, name, value, /)`
-  - **__sizeof__** `(self, /)`
-  - **__str__** `(self, /)`
-#### 📣 Signals<a name="signals-"></a>
-- None found
+  - **__class__** `(name, bases, dict_)`<br>
+⚠️ **__copy__** _Unavailable_ †<br>
+⚠️ **__deepcopy__** _Unavailable_ †<br>
+  - **__delattr__** `(self, name, /)`<br>
+  - **__dir__** `(self, /)`<br>
+  - **__eq__** `(self, value, /)`<br>
+  - **__format__** `(self, format_spec, /)`<br>
+  - **__ge__** `(self, value, /)`<br>
+  - **__getattribute__** `(self, name, /)`<br>
+  - **__getstate__** `(self, /)`<br>
+  - **__gt__** `(self, value, /)`<br>
+  - **__hash__** `(self, /)`<br>
+  - **__le__** `(self, value, /)`<br>
+  - **__lt__** `(self, value, /)`<br>
+  - **__ne__** `(self, value, /)`<br>
+  - **__new__** `(*args, **kwargs)`<br>
+  - **__repr__** `(self, /)`<br>
+  - **__setattr__** `(self, name, value, /)`<br>
+  - **__sizeof__** `(self, /)`<br>
+  - **__str__** `(self, /)`<br>
+  - **__subclasshook__** `(object, /)`<br>
+#### 🏷️ Properties
+<a name="properties-"></a>
+  - **source**: `GObject` (read/write)
+<br>
+#### 📣 Signals
+<a name="signals-"></a>
+<br>- None found
+
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

@@ -30,294 +30,323 @@ layout: default
     - [ 🔹 steal:Methods](#steal-methods)
     - [ 🔹 stop:Methods](#stop-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
+  - [ 🔒 Private:Methods](#private-methods)
+    - [ 🔒 ref:Methods](#ref-methods)
+    - [ 🔒 unsupported:Methods](#unsupported-methods)
+    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
+- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: BatchProcedure
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 add Methods
 <a name="add-methods"></a>
-⚠️ **add_boolean_argument** _Unavailable_ †
-⚠️ **add_boolean_aux_argument** _Unavailable_ †
-⚠️ **add_boolean_return_value** _Unavailable_ †
-⚠️ **add_brush_argument** _Unavailable_ †
-⚠️ **add_brush_aux_argument** _Unavailable_ †
-⚠️ **add_brush_return_value** _Unavailable_ †
-⚠️ **add_bytes_argument** _Unavailable_ †
-⚠️ **add_bytes_aux_argument** _Unavailable_ †
-⚠️ **add_bytes_return_value** _Unavailable_ †
-⚠️ **add_channel_argument** _Unavailable_ †
-⚠️ **add_channel_aux_argument** _Unavailable_ †
-⚠️ **add_channel_return_value** _Unavailable_ †
-⚠️ **add_choice_argument** _Unavailable_ †
-⚠️ **add_choice_aux_argument** _Unavailable_ †
-⚠️ **add_choice_return_value** _Unavailable_ †
-⚠️ **add_color_argument** _Unavailable_ †
-⚠️ **add_color_aux_argument** _Unavailable_ †
-⚠️ **add_color_from_string_argument** _Unavailable_ †
-⚠️ **add_color_from_string_aux_argument** _Unavailable_ †
-⚠️ **add_color_from_string_return_value** _Unavailable_ †
-⚠️ **add_color_return_value** _Unavailable_ †
-⚠️ **add_core_object_array_argument** _Unavailable_ †
-⚠️ **add_core_object_array_aux_argument** _Unavailable_ †
-⚠️ **add_core_object_array_return_value** _Unavailable_ †
-⚠️ **add_display_argument** _Unavailable_ †
-⚠️ **add_display_aux_argument** _Unavailable_ †
-⚠️ **add_display_return_value** _Unavailable_ †
-⚠️ **add_double_argument** _Unavailable_ †
-⚠️ **add_double_array_argument** _Unavailable_ †
-⚠️ **add_double_array_aux_argument** _Unavailable_ †
-⚠️ **add_double_array_return_value** _Unavailable_ †
-⚠️ **add_double_aux_argument** _Unavailable_ †
-⚠️ **add_double_return_value** _Unavailable_ †
-⚠️ **add_drawable_argument** _Unavailable_ †
-⚠️ **add_drawable_aux_argument** _Unavailable_ †
-⚠️ **add_drawable_return_value** _Unavailable_ †
-⚠️ **add_enum_argument** _Unavailable_ †
-⚠️ **add_enum_aux_argument** _Unavailable_ †
-⚠️ **add_enum_return_value** _Unavailable_ †
-⚠️ **add_file_argument** _Unavailable_ †
-⚠️ **add_file_aux_argument** _Unavailable_ †
-⚠️ **add_file_return_value** _Unavailable_ †
-⚠️ **add_font_argument** _Unavailable_ †
-⚠️ **add_font_aux_argument** _Unavailable_ †
-⚠️ **add_font_return_value** _Unavailable_ †
-⚠️ **add_gradient_argument** _Unavailable_ †
-⚠️ **add_gradient_aux_argument** _Unavailable_ †
-⚠️ **add_gradient_return_value** _Unavailable_ †
-⚠️ **add_group_layer_argument** _Unavailable_ †
-⚠️ **add_group_layer_aux_argument** _Unavailable_ †
-⚠️ **add_group_layer_return_value** _Unavailable_ †
-⚠️ **add_image_argument** _Unavailable_ †
-⚠️ **add_image_aux_argument** _Unavailable_ †
-⚠️ **add_image_return_value** _Unavailable_ †
-⚠️ **add_int32_array_argument** _Unavailable_ †
-⚠️ **add_int32_array_aux_argument** _Unavailable_ †
-⚠️ **add_int32_array_return_value** _Unavailable_ †
-⚠️ **add_int_argument** _Unavailable_ †
-⚠️ **add_int_aux_argument** _Unavailable_ †
-⚠️ **add_int_return_value** _Unavailable_ †
-⚠️ **add_item_argument** _Unavailable_ †
-⚠️ **add_item_aux_argument** _Unavailable_ †
-⚠️ **add_item_return_value** _Unavailable_ †
-⚠️ **add_layer_argument** _Unavailable_ †
-⚠️ **add_layer_aux_argument** _Unavailable_ †
-⚠️ **add_layer_mask_argument** _Unavailable_ †
-⚠️ **add_layer_mask_aux_argument** _Unavailable_ †
-⚠️ **add_layer_mask_return_value** _Unavailable_ †
-⚠️ **add_layer_return_value** _Unavailable_ †
-⚠️ **add_menu_path** _Unavailable_ †
-⚠️ **add_palette_argument** _Unavailable_ †
-⚠️ **add_palette_aux_argument** _Unavailable_ †
-⚠️ **add_palette_return_value** _Unavailable_ †
-⚠️ **add_param_argument** _Unavailable_ †
-⚠️ **add_param_aux_argument** _Unavailable_ †
-⚠️ **add_param_return_value** _Unavailable_ †
-⚠️ **add_parasite_argument** _Unavailable_ †
-⚠️ **add_parasite_aux_argument** _Unavailable_ †
-⚠️ **add_parasite_return_value** _Unavailable_ †
-⚠️ **add_path_argument** _Unavailable_ †
-⚠️ **add_path_aux_argument** _Unavailable_ †
-⚠️ **add_path_return_value** _Unavailable_ †
-⚠️ **add_pattern_argument** _Unavailable_ †
-⚠️ **add_pattern_aux_argument** _Unavailable_ †
-⚠️ **add_pattern_return_value** _Unavailable_ †
-⚠️ **add_resource_argument** _Unavailable_ †
-⚠️ **add_resource_aux_argument** _Unavailable_ †
-⚠️ **add_resource_return_value** _Unavailable_ †
-⚠️ **add_selection_argument** _Unavailable_ †
-⚠️ **add_selection_aux_argument** _Unavailable_ †
-⚠️ **add_selection_return_value** _Unavailable_ †
-⚠️ **add_string_argument** _Unavailable_ †
-⚠️ **add_string_array_argument** _Unavailable_ †
-⚠️ **add_string_array_aux_argument** _Unavailable_ †
-⚠️ **add_string_array_return_value** _Unavailable_ †
-⚠️ **add_string_aux_argument** _Unavailable_ †
-⚠️ **add_string_return_value** _Unavailable_ †
-⚠️ **add_text_layer_argument** _Unavailable_ †
-⚠️ **add_text_layer_aux_argument** _Unavailable_ †
-⚠️ **add_text_layer_return_value** _Unavailable_ †
-⚠️ **add_uint_argument** _Unavailable_ †
-⚠️ **add_uint_aux_argument** _Unavailable_ †
-⚠️ **add_uint_return_value** _Unavailable_ †
-⚠️ **add_unit_argument** _Unavailable_ †
-⚠️ **add_unit_aux_argument** _Unavailable_ †
-⚠️ **add_unit_return_value** _Unavailable_ †
+⚠️ **add_boolean_argument** _Unavailable_ †<br>
+⚠️ **add_boolean_aux_argument** _Unavailable_ †<br>
+⚠️ **add_boolean_return_value** _Unavailable_ †<br>
+⚠️ **add_brush_argument** _Unavailable_ †<br>
+⚠️ **add_brush_aux_argument** _Unavailable_ †<br>
+⚠️ **add_brush_return_value** _Unavailable_ †<br>
+⚠️ **add_bytes_argument** _Unavailable_ †<br>
+⚠️ **add_bytes_aux_argument** _Unavailable_ †<br>
+⚠️ **add_bytes_return_value** _Unavailable_ †<br>
+⚠️ **add_channel_argument** _Unavailable_ †<br>
+⚠️ **add_channel_aux_argument** _Unavailable_ †<br>
+⚠️ **add_channel_return_value** _Unavailable_ †<br>
+⚠️ **add_choice_argument** _Unavailable_ †<br>
+⚠️ **add_choice_aux_argument** _Unavailable_ †<br>
+⚠️ **add_choice_return_value** _Unavailable_ †<br>
+⚠️ **add_color_argument** _Unavailable_ †<br>
+⚠️ **add_color_aux_argument** _Unavailable_ †<br>
+⚠️ **add_color_from_string_argument** _Unavailable_ †<br>
+⚠️ **add_color_from_string_aux_argument** _Unavailable_ †<br>
+⚠️ **add_color_from_string_return_value** _Unavailable_ †<br>
+⚠️ **add_color_return_value** _Unavailable_ †<br>
+⚠️ **add_core_object_array_argument** _Unavailable_ †<br>
+⚠️ **add_core_object_array_aux_argument** _Unavailable_ †<br>
+⚠️ **add_core_object_array_return_value** _Unavailable_ †<br>
+⚠️ **add_display_argument** _Unavailable_ †<br>
+⚠️ **add_display_aux_argument** _Unavailable_ †<br>
+⚠️ **add_display_return_value** _Unavailable_ †<br>
+⚠️ **add_double_argument** _Unavailable_ †<br>
+⚠️ **add_double_array_argument** _Unavailable_ †<br>
+⚠️ **add_double_array_aux_argument** _Unavailable_ †<br>
+⚠️ **add_double_array_return_value** _Unavailable_ †<br>
+⚠️ **add_double_aux_argument** _Unavailable_ †<br>
+⚠️ **add_double_return_value** _Unavailable_ †<br>
+⚠️ **add_drawable_argument** _Unavailable_ †<br>
+⚠️ **add_drawable_aux_argument** _Unavailable_ †<br>
+⚠️ **add_drawable_return_value** _Unavailable_ †<br>
+⚠️ **add_enum_argument** _Unavailable_ †<br>
+⚠️ **add_enum_aux_argument** _Unavailable_ †<br>
+⚠️ **add_enum_return_value** _Unavailable_ †<br>
+⚠️ **add_file_argument** _Unavailable_ †<br>
+⚠️ **add_file_aux_argument** _Unavailable_ †<br>
+⚠️ **add_file_return_value** _Unavailable_ †<br>
+⚠️ **add_font_argument** _Unavailable_ †<br>
+⚠️ **add_font_aux_argument** _Unavailable_ †<br>
+⚠️ **add_font_return_value** _Unavailable_ †<br>
+⚠️ **add_gradient_argument** _Unavailable_ †<br>
+⚠️ **add_gradient_aux_argument** _Unavailable_ †<br>
+⚠️ **add_gradient_return_value** _Unavailable_ †<br>
+⚠️ **add_group_layer_argument** _Unavailable_ †<br>
+⚠️ **add_group_layer_aux_argument** _Unavailable_ †<br>
+⚠️ **add_group_layer_return_value** _Unavailable_ †<br>
+⚠️ **add_image_argument** _Unavailable_ †<br>
+⚠️ **add_image_aux_argument** _Unavailable_ †<br>
+⚠️ **add_image_return_value** _Unavailable_ †<br>
+⚠️ **add_int32_array_argument** _Unavailable_ †<br>
+⚠️ **add_int32_array_aux_argument** _Unavailable_ †<br>
+⚠️ **add_int32_array_return_value** _Unavailable_ †<br>
+⚠️ **add_int_argument** _Unavailable_ †<br>
+⚠️ **add_int_aux_argument** _Unavailable_ †<br>
+⚠️ **add_int_return_value** _Unavailable_ †<br>
+⚠️ **add_item_argument** _Unavailable_ †<br>
+⚠️ **add_item_aux_argument** _Unavailable_ †<br>
+⚠️ **add_item_return_value** _Unavailable_ †<br>
+⚠️ **add_layer_argument** _Unavailable_ †<br>
+⚠️ **add_layer_aux_argument** _Unavailable_ †<br>
+⚠️ **add_layer_mask_argument** _Unavailable_ †<br>
+⚠️ **add_layer_mask_aux_argument** _Unavailable_ †<br>
+⚠️ **add_layer_mask_return_value** _Unavailable_ †<br>
+⚠️ **add_layer_return_value** _Unavailable_ †<br>
+⚠️ **add_menu_path** _Unavailable_ †<br>
+⚠️ **add_palette_argument** _Unavailable_ †<br>
+⚠️ **add_palette_aux_argument** _Unavailable_ †<br>
+⚠️ **add_palette_return_value** _Unavailable_ †<br>
+⚠️ **add_param_argument** _Unavailable_ †<br>
+⚠️ **add_param_aux_argument** _Unavailable_ †<br>
+⚠️ **add_param_return_value** _Unavailable_ †<br>
+⚠️ **add_parasite_argument** _Unavailable_ †<br>
+⚠️ **add_parasite_aux_argument** _Unavailable_ †<br>
+⚠️ **add_parasite_return_value** _Unavailable_ †<br>
+⚠️ **add_path_argument** _Unavailable_ †<br>
+⚠️ **add_path_aux_argument** _Unavailable_ †<br>
+⚠️ **add_path_return_value** _Unavailable_ †<br>
+⚠️ **add_pattern_argument** _Unavailable_ †<br>
+⚠️ **add_pattern_aux_argument** _Unavailable_ †<br>
+⚠️ **add_pattern_return_value** _Unavailable_ †<br>
+⚠️ **add_resource_argument** _Unavailable_ †<br>
+⚠️ **add_resource_aux_argument** _Unavailable_ †<br>
+⚠️ **add_resource_return_value** _Unavailable_ †<br>
+⚠️ **add_selection_argument** _Unavailable_ †<br>
+⚠️ **add_selection_aux_argument** _Unavailable_ †<br>
+⚠️ **add_selection_return_value** _Unavailable_ †<br>
+⚠️ **add_string_argument** _Unavailable_ †<br>
+⚠️ **add_string_array_argument** _Unavailable_ †<br>
+⚠️ **add_string_array_aux_argument** _Unavailable_ †<br>
+⚠️ **add_string_array_return_value** _Unavailable_ †<br>
+⚠️ **add_string_aux_argument** _Unavailable_ †<br>
+⚠️ **add_string_return_value** _Unavailable_ †<br>
+⚠️ **add_text_layer_argument** _Unavailable_ †<br>
+⚠️ **add_text_layer_aux_argument** _Unavailable_ †<br>
+⚠️ **add_text_layer_return_value** _Unavailable_ †<br>
+⚠️ **add_uint_argument** _Unavailable_ †<br>
+⚠️ **add_uint_aux_argument** _Unavailable_ †<br>
+⚠️ **add_uint_return_value** _Unavailable_ †<br>
+⚠️ **add_unit_argument** _Unavailable_ †<br>
+⚠️ **add_unit_aux_argument** _Unavailable_ †<br>
+⚠️ **add_unit_return_value** _Unavailable_ †<br>
 - #### 🔹 bind Methods
 <a name="bind-methods"></a>
-⚠️ **bind_property** _Unavailable_ †
-⚠️ **bind_property_full** _Unavailable_ †
+⚠️ **bind_property** _Unavailable_ †<br>
+⚠️ **bind_property_full** _Unavailable_ †<br>
 - #### 🔹 connect Methods
 <a name="connect-methods"></a>
-⚠️ **connect** _Unavailable_ †
-⚠️ **connect_after** _Unavailable_ †
-⚠️ **connect_data** _Unavailable_ †
-⚠️ **connect_object** _Unavailable_ †
-⚠️ **connect_object_after** _Unavailable_ †
+⚠️ **connect** _Unavailable_ †<br>
+⚠️ **connect_after** _Unavailable_ †<br>
+⚠️ **connect_data** _Unavailable_ †<br>
+⚠️ **connect_object** _Unavailable_ †<br>
+⚠️ **connect_object_after** _Unavailable_ †<br>
 - #### 🔹 disconnect Methods
 <a name="disconnect-methods"></a>
-⚠️ **disconnect** _Unavailable_ †
-⚠️ **disconnect_by_func** _Unavailable_ †
+⚠️ **disconnect** _Unavailable_ †<br>
+⚠️ **disconnect_by_func** _Unavailable_ †<br>
 - #### 🔹 do Methods
 <a name="do-methods"></a>
-⚠️ **do_install** _Unavailable_ †
-⚠️ **do_run** _Unavailable_ †
-⚠️ **do_set_sensitivity** _Unavailable_ †
-⚠️ **do_uninstall** _Unavailable_ †
+⚠️ **do_install** _Unavailable_ †<br>
+⚠️ **do_run** _Unavailable_ †<br>
+⚠️ **do_set_sensitivity** _Unavailable_ †<br>
+⚠️ **do_uninstall** _Unavailable_ †<br>
 - #### 🔹 emit Methods
 <a name="emit-methods"></a>
-⚠️ **emit** _Unavailable_ †
-⚠️ **emit_stop_by_name** _Unavailable_ †
+⚠️ **emit** _Unavailable_ †<br>
+⚠️ **emit_stop_by_name** _Unavailable_ †<br>
 - #### 🔹 find Methods
 <a name="find-methods"></a>
-⚠️ **find_argument** _Unavailable_ †
-⚠️ **find_aux_argument** _Unavailable_ †
-⚠️ **find_property** _Unavailable_ †
-⚠️ **find_return_value** _Unavailable_ †
+⚠️ **find_argument** _Unavailable_ †<br>
+⚠️ **find_aux_argument** _Unavailable_ †<br>
+⚠️ **find_property** _Unavailable_ †<br>
+⚠️ **find_return_value** _Unavailable_ †<br>
 - #### 🔹 get Methods
 <a name="get-methods"></a>
-⚠️ **get_argument_sync** _Unavailable_ †
-⚠️ **get_arguments** _Unavailable_ †
-⚠️ **get_authors** _Unavailable_ †
-⚠️ **get_aux_arguments** _Unavailable_ †
-⚠️ **get_blurb** _Unavailable_ †
-⚠️ **get_copyright** _Unavailable_ †
-⚠️ **get_data** _Unavailable_ †
-⚠️ **get_date** _Unavailable_ †
-⚠️ **get_help** _Unavailable_ †
-⚠️ **get_help_id** _Unavailable_ †
-⚠️ **get_icon_file** _Unavailable_ †
-⚠️ **get_icon_name** _Unavailable_ †
-⚠️ **get_icon_pixbuf** _Unavailable_ †
-⚠️ **get_icon_type** _Unavailable_ †
-⚠️ **get_image_types** _Unavailable_ †
-⚠️ **get_interpreter_name** _Unavailable_ †
-⚠️ **get_menu_label** _Unavailable_ †
-⚠️ **get_menu_paths** _Unavailable_ †
-⚠️ **get_name** _Unavailable_ †
-⚠️ **get_plug_in** _Unavailable_ †
-⚠️ **get_proc_type** _Unavailable_ †
-⚠️ **get_properties** _Unavailable_ †
-⚠️ **get_property** _Unavailable_ †
-⚠️ **get_qdata** _Unavailable_ †
-⚠️ **get_return_values** _Unavailable_ †
-⚠️ **get_sensitivity_mask** _Unavailable_ †
+⚠️ **get_argument_sync** _Unavailable_ †<br>
+⚠️ **get_arguments** _Unavailable_ †<br>
+⚠️ **get_authors** _Unavailable_ †<br>
+⚠️ **get_aux_arguments** _Unavailable_ †<br>
+⚠️ **get_blurb** _Unavailable_ †<br>
+⚠️ **get_copyright** _Unavailable_ †<br>
+⚠️ **get_data** _Unavailable_ †<br>
+⚠️ **get_date** _Unavailable_ †<br>
+⚠️ **get_help** _Unavailable_ †<br>
+⚠️ **get_help_id** _Unavailable_ †<br>
+⚠️ **get_icon_file** _Unavailable_ †<br>
+⚠️ **get_icon_name** _Unavailable_ †<br>
+⚠️ **get_icon_pixbuf** _Unavailable_ †<br>
+⚠️ **get_icon_type** _Unavailable_ †<br>
+⚠️ **get_image_types** _Unavailable_ †<br>
+⚠️ **get_interpreter_name** _Unavailable_ †<br>
+⚠️ **get_menu_label** _Unavailable_ †<br>
+⚠️ **get_menu_paths** _Unavailable_ †<br>
+⚠️ **get_name** _Unavailable_ †<br>
+⚠️ **get_plug_in** _Unavailable_ †<br>
+⚠️ **get_proc_type** _Unavailable_ †<br>
+⚠️ **get_properties** _Unavailable_ †<br>
+⚠️ **get_property** _Unavailable_ †<br>
+⚠️ **get_qdata** _Unavailable_ †<br>
+⚠️ **get_return_values** _Unavailable_ †<br>
+⚠️ **get_sensitivity_mask** _Unavailable_ †<br>
 - #### 🔹 handler Methods
 <a name="handler-methods"></a>
-⚠️ **handler_block** _Unavailable_ †
-⚠️ **handler_block_by_func** _Unavailable_ †
-⚠️ **handler_disconnect** _Unavailable_ †
-⚠️ **handler_is_connected** _Unavailable_ †
-⚠️ **handler_unblock** _Unavailable_ †
-⚠️ **handler_unblock_by_func** _Unavailable_ †
+⚠️ **handler_block** _Unavailable_ †<br>
+⚠️ **handler_block_by_func** _Unavailable_ †<br>
+⚠️ **handler_disconnect** _Unavailable_ †<br>
+⚠️ **handler_is_connected** _Unavailable_ †<br>
+⚠️ **handler_unblock** _Unavailable_ †<br>
+⚠️ **handler_unblock_by_func** _Unavailable_ †<br>
 - #### 🔹 install Methods
 <a name="install-methods"></a>
-⚠️ **install_properties** _Unavailable_ †
-⚠️ **install_property** _Unavailable_ †
+⚠️ **install_properties** _Unavailable_ †<br>
+⚠️ **install_property** _Unavailable_ †<br>
 - #### 🔹 interface Methods
 <a name="interface-methods"></a>
-⚠️ **interface_find_property** _Unavailable_ †
-⚠️ **interface_install_property** _Unavailable_ †
-⚠️ **interface_list_properties** _Unavailable_ †
+⚠️ **interface_find_property** _Unavailable_ †<br>
+⚠️ **interface_install_property** _Unavailable_ †<br>
+⚠️ **interface_list_properties** _Unavailable_ †<br>
 - #### 🔹 is Methods
 <a name="is-methods"></a>
-⚠️ **is_floating** _Unavailable_ †
-⚠️ **is_internal** _Unavailable_ †
+⚠️ **is_floating** _Unavailable_ †<br>
+⚠️ **is_internal** _Unavailable_ †<br>
 - #### 🔹 new Methods
 <a name="new-methods"></a>
-⚠️ **new** _Unavailable_ †
-⚠️ **new_return_values** _Unavailable_ †
+⚠️ **new** _Unavailable_ †<br>
+⚠️ **new_return_values** _Unavailable_ †<br>
 - #### 🔹 notify Methods
 <a name="notify-methods"></a>
-⚠️ **notify** _Unavailable_ †
-⚠️ **notify_by_pspec** _Unavailable_ †
+⚠️ **notify** _Unavailable_ †<br>
+⚠️ **notify_by_pspec** _Unavailable_ †<br>
 - #### 🔹 ref Methods
 <a name="ref-methods"></a>
-⚠️ **ref** _Unavailable_ †
-⚠️ **ref_sink** _Unavailable_ †
+⚠️ **ref** _Unavailable_ †<br>
+⚠️ **ref_sink** _Unavailable_ †<br>
 - #### 🔹 replace Methods
 <a name="replace-methods"></a>
-⚠️ **replace_data** _Unavailable_ †
-⚠️ **replace_qdata** _Unavailable_ †
+⚠️ **replace_data** _Unavailable_ †<br>
+⚠️ **replace_qdata** _Unavailable_ †<br>
 - #### 🔹 run Methods
 <a name="run-methods"></a>
-⚠️ **run** _Unavailable_ †
-⚠️ **run_dispose** _Unavailable_ †
+⚠️ **run** _Unavailable_ †<br>
+⚠️ **run_dispose** _Unavailable_ †<br>
 - #### 🔹 set Methods
 <a name="set-methods"></a>
-⚠️ **set_argument_sync** _Unavailable_ †
-⚠️ **set_attribution** _Unavailable_ †
-⚠️ **set_data** _Unavailable_ †
-⚠️ **set_documentation** _Unavailable_ †
-⚠️ **set_icon_file** _Unavailable_ †
-⚠️ **set_icon_name** _Unavailable_ †
-⚠️ **set_icon_pixbuf** _Unavailable_ †
-⚠️ **set_image_types** _Unavailable_ †
-⚠️ **set_interpreter_name** _Unavailable_ †
-⚠️ **set_menu_label** _Unavailable_ †
-⚠️ **set_properties** _Unavailable_ †
-⚠️ **set_property** _Unavailable_ †
-⚠️ **set_sensitivity_mask** _Unavailable_ †
+⚠️ **set_argument_sync** _Unavailable_ †<br>
+⚠️ **set_attribution** _Unavailable_ †<br>
+⚠️ **set_data** _Unavailable_ †<br>
+⚠️ **set_documentation** _Unavailable_ †<br>
+⚠️ **set_icon_file** _Unavailable_ †<br>
+⚠️ **set_icon_name** _Unavailable_ †<br>
+⚠️ **set_icon_pixbuf** _Unavailable_ †<br>
+⚠️ **set_image_types** _Unavailable_ †<br>
+⚠️ **set_interpreter_name** _Unavailable_ †<br>
+⚠️ **set_menu_label** _Unavailable_ †<br>
+⚠️ **set_properties** _Unavailable_ †<br>
+⚠️ **set_property** _Unavailable_ †<br>
+⚠️ **set_sensitivity_mask** _Unavailable_ †<br>
 - #### 🔹 steal Methods
 <a name="steal-methods"></a>
-⚠️ **steal_data** _Unavailable_ †
-⚠️ **steal_qdata** _Unavailable_ †
+⚠️ **steal_data** _Unavailable_ †<br>
+⚠️ **steal_qdata** _Unavailable_ †<br>
 - #### 🔹 stop Methods
 <a name="stop-methods"></a>
-⚠️ **stop_emission** _Unavailable_ †
-⚠️ **stop_emission_by_name** _Unavailable_ †
+⚠️ **stop_emission** _Unavailable_ †<br>
+⚠️ **stop_emission_by_name** _Unavailable_ †<br>
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **chain** _Unavailable_ †
-⚠️ **compat_control** _Unavailable_ †
-⚠️ **create_config** _Unavailable_ †
-⚠️ **force_floating** _Unavailable_ †
-⚠️ **freeze_notify** _Unavailable_ †
-⚠️ **getv** _Unavailable_ †
-⚠️ **list_properties** _Unavailable_ †
-⚠️ **newv** _Unavailable_ †
-⚠️ **override_property** _Unavailable_ †
-⚠️ **persistent_ready** _Unavailable_ †
-⚠️ **thaw_notify** _Unavailable_ †
-⚠️ **unref** _Unavailable_ †
-⚠️ **watch_closure** _Unavailable_ †
+⚠️ **chain** _Unavailable_ †<br>
+⚠️ **compat_control** _Unavailable_ †<br>
+⚠️ **create_config** _Unavailable_ †<br>
+⚠️ **force_floating** _Unavailable_ †<br>
+⚠️ **freeze_notify** _Unavailable_ †<br>
+⚠️ **getv** _Unavailable_ †<br>
+⚠️ **list_properties** _Unavailable_ †<br>
+⚠️ **newv** _Unavailable_ †<br>
+⚠️ **override_property** _Unavailable_ †<br>
+⚠️ **persistent_ready** _Unavailable_ †<br>
+⚠️ **thaw_notify** _Unavailable_ †<br>
+⚠️ **unref** _Unavailable_ †<br>
+⚠️ **watch_closure** _Unavailable_ †<br>
+⚠️ **weak_ref** _Unavailable_ †<br>
+### 🔒 Private Methods
+<a name="private-methods"></a>
+- #### 🔒 ref Methods
+<a name="ref-methods"></a>
+⚠️ **_ref** _Unavailable_ †<br>
+⚠️ **_ref_sink** _Unavailable_ †<br>
+- #### 🔒 unsupported Methods
+<a name="unsupported-methods"></a>
+⚠️ **_unsupported_data_method** _Unavailable_ †<br>
+⚠️ **_unsupported_method** _Unavailable_ †<br>
+- #### 🔒 ungrouped Methods
+<a name="ungrouped-methods"></a>
+⚠️ **_force_floating** _Unavailable_ †<br>
+⚠️ **_unref** _Unavailable_ †<br>
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(self, /, *args, **kwargs)`
-  - **__init_subclass__** `()`
+  - **__init__** `(self, /, *args, **kwargs)`<br>
+  - **__init_subclass__** `()`<br>
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`
-  - **__reduce_ex__** `(self, protocol, /)`
+  - **__reduce__** `(self, /)`<br>
+  - **__reduce_ex__** `(self, protocol, /)`<br>
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-  - **__class__** `(name, bases, dict_)`
-⚠️ **__copy__** _Unavailable_ †
-⚠️ **__deepcopy__** _Unavailable_ †
-  - **__delattr__** `(self, name, /)`
-  - **__dir__** `(self, /)`
-  - **__eq__** `(self, value, /)`
-  - **__format__** `(self, format_spec, /)`
-  - **__ge__** `(self, value, /)`
-  - **__getattribute__** `(self, name, /)`
-  - **__getstate__** `(self, /)`
-  - **__gt__** `(self, value, /)`
-  - **__hash__** `(self, /)`
-  - **__le__** `(self, value, /)`
-  - **__lt__** `(self, value, /)`
-  - **__ne__** `(self, value, /)`
-  - **__new__** `(*args, **kwargs)`
-  - **__repr__** `(self, /)`
-  - **__setattr__** `(self, name, value, /)`
-  - **__sizeof__** `(self, /)`
-  - **__str__** `(self, /)`
-#### 📣 Signals<a name="signals-"></a>
-- None found
+  - **__class__** `(name, bases, dict_)`<br>
+⚠️ **__copy__** _Unavailable_ †<br>
+⚠️ **__deepcopy__** _Unavailable_ †<br>
+  - **__delattr__** `(self, name, /)`<br>
+  - **__dir__** `(self, /)`<br>
+  - **__eq__** `(self, value, /)`<br>
+  - **__format__** `(self, format_spec, /)`<br>
+  - **__ge__** `(self, value, /)`<br>
+  - **__getattribute__** `(self, name, /)`<br>
+  - **__getstate__** `(self, /)`<br>
+  - **__gt__** `(self, value, /)`<br>
+  - **__hash__** `(self, /)`<br>
+  - **__le__** `(self, value, /)`<br>
+  - **__lt__** `(self, value, /)`<br>
+  - **__ne__** `(self, value, /)`<br>
+  - **__new__** `(*args, **kwargs)`<br>
+  - **__repr__** `(self, /)`<br>
+  - **__setattr__** `(self, name, value, /)`<br>
+  - **__sizeof__** `(self, /)`<br>
+  - **__str__** `(self, /)`<br>
+  - **__subclasshook__** `(object, /)`<br>
+#### 🏷️ Properties
+<a name="properties-"></a>
+  - **plug  -in**: `GimpPlugIn` (read/write)
+  - **name**: `gchararray` (read/write)
+  - **procedure  -type**: `GimpPDBProcType` (read/write)
+<br>
+#### 📣 Signals
+<a name="signals-"></a>
+<br>- None found
+
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

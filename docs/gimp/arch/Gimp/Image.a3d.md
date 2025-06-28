@@ -48,335 +48,362 @@ layout: default
     - [ 🔹 thaw:Methods](#thaw-methods)
     - [ 🔹 undo:Methods](#undo-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
+  - [ 🔒 Private:Methods](#private-methods)
+    - [ 🔒 ref:Methods](#ref-methods)
+    - [ 🔒 unsupported:Methods](#unsupported-methods)
+    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
+- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: Image
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 add Methods
 <a name="add-methods"></a>
-⚠️ **add_hguide** _Unavailable_ †
-⚠️ **add_sample_point** _Unavailable_ †
-⚠️ **add_vguide** _Unavailable_ †
+⚠️ **add_hguide** _Unavailable_ †<br>
+⚠️ **add_sample_point** _Unavailable_ †<br>
+⚠️ **add_vguide** _Unavailable_ †<br>
 - #### 🔹 autocrop Methods
 <a name="autocrop-methods"></a>
-⚠️ **autocrop** _Unavailable_ †
-⚠️ **autocrop_selected_layers** _Unavailable_ †
+⚠️ **autocrop** _Unavailable_ †<br>
+⚠️ **autocrop_selected_layers** _Unavailable_ †<br>
 - #### 🔹 bind Methods
 <a name="bind-methods"></a>
-⚠️ **bind_property** _Unavailable_ †
-⚠️ **bind_property_full** _Unavailable_ †
+⚠️ **bind_property** _Unavailable_ †<br>
+⚠️ **bind_property_full** _Unavailable_ †<br>
 - #### 🔹 connect Methods
 <a name="connect-methods"></a>
-⚠️ **connect** _Unavailable_ †
-⚠️ **connect_after** _Unavailable_ †
-⚠️ **connect_data** _Unavailable_ †
-⚠️ **connect_object** _Unavailable_ †
-⚠️ **connect_object_after** _Unavailable_ †
+⚠️ **connect** _Unavailable_ †<br>
+⚠️ **connect_after** _Unavailable_ †<br>
+⚠️ **connect_data** _Unavailable_ †<br>
+⚠️ **connect_object** _Unavailable_ †<br>
+⚠️ **connect_object_after** _Unavailable_ †<br>
 - #### 🔹 convert Methods
 <a name="convert-methods"></a>
-⚠️ **convert_color_profile** _Unavailable_ †
-⚠️ **convert_color_profile_from_file** _Unavailable_ †
-⚠️ **convert_grayscale** _Unavailable_ †
-⚠️ **convert_indexed** _Unavailable_ †
-⚠️ **convert_precision** _Unavailable_ †
-⚠️ **convert_rgb** _Unavailable_ †
-⚠️ **convert_set_dither_matrix** _Unavailable_ †
+⚠️ **convert_color_profile** _Unavailable_ †<br>
+⚠️ **convert_color_profile_from_file** _Unavailable_ †<br>
+⚠️ **convert_grayscale** _Unavailable_ †<br>
+⚠️ **convert_indexed** _Unavailable_ †<br>
+⚠️ **convert_precision** _Unavailable_ †<br>
+⚠️ **convert_rgb** _Unavailable_ †<br>
+⚠️ **convert_set_dither_matrix** _Unavailable_ †<br>
 - #### 🔹 delete Methods
 <a name="delete-methods"></a>
-⚠️ **delete** _Unavailable_ †
-⚠️ **delete_guide** _Unavailable_ †
-⚠️ **delete_sample_point** _Unavailable_ †
+⚠️ **delete** _Unavailable_ †<br>
+⚠️ **delete_guide** _Unavailable_ †<br>
+⚠️ **delete_sample_point** _Unavailable_ †<br>
 - #### 🔹 disconnect Methods
 <a name="disconnect-methods"></a>
-⚠️ **disconnect** _Unavailable_ †
-⚠️ **disconnect_by_func** _Unavailable_ †
+⚠️ **disconnect** _Unavailable_ †<br>
+⚠️ **disconnect_by_func** _Unavailable_ †<br>
 - #### 🔹 emit Methods
 <a name="emit-methods"></a>
-⚠️ **emit** _Unavailable_ †
-⚠️ **emit_stop_by_name** _Unavailable_ †
+⚠️ **emit** _Unavailable_ †<br>
+⚠️ **emit_stop_by_name** _Unavailable_ †<br>
 - #### 🔹 export Methods
 <a name="export-methods"></a>
-⚠️ **export_path_to_file** _Unavailable_ †
-⚠️ **export_path_to_string** _Unavailable_ †
+⚠️ **export_path_to_file** _Unavailable_ †<br>
+⚠️ **export_path_to_string** _Unavailable_ †<br>
 - #### 🔹 find Methods
 <a name="find-methods"></a>
-⚠️ **find_next_guide** _Unavailable_ †
-⚠️ **find_next_sample_point** _Unavailable_ †
-⚠️ **find_property** _Unavailable_ †
+⚠️ **find_next_guide** _Unavailable_ †<br>
+⚠️ **find_next_sample_point** _Unavailable_ †<br>
+⚠️ **find_property** _Unavailable_ †<br>
 - #### 🔹 freeze Methods
 <a name="freeze-methods"></a>
-⚠️ **freeze_channels** _Unavailable_ †
-⚠️ **freeze_layers** _Unavailable_ †
-⚠️ **freeze_notify** _Unavailable_ †
-⚠️ **freeze_paths** _Unavailable_ †
+⚠️ **freeze_channels** _Unavailable_ †<br>
+⚠️ **freeze_layers** _Unavailable_ †<br>
+⚠️ **freeze_notify** _Unavailable_ †<br>
+⚠️ **freeze_paths** _Unavailable_ †<br>
 - #### 🔹 get Methods
 <a name="get-methods"></a>
-⚠️ **get_base_type** _Unavailable_ †
-⚠️ **get_by_id** _Unavailable_ †
-⚠️ **get_channel_by_name** _Unavailable_ †
-⚠️ **get_channel_by_tattoo** _Unavailable_ †
-⚠️ **get_channels** _Unavailable_ †
-⚠️ **get_color_profile** _Unavailable_ †
-⚠️ **get_component_active** _Unavailable_ †
-⚠️ **get_component_visible** _Unavailable_ †
-⚠️ **get_data** _Unavailable_ †
-⚠️ **get_default_new_layer_mode** _Unavailable_ †
-⚠️ **get_effective_color_profile** _Unavailable_ †
-⚠️ **get_exported_file** _Unavailable_ †
-⚠️ **get_file** _Unavailable_ †
-⚠️ **get_floating_sel** _Unavailable_ †
-⚠️ **get_guide_orientation** _Unavailable_ †
-⚠️ **get_guide_position** _Unavailable_ †
-⚠️ **get_height** _Unavailable_ †
-⚠️ **get_id** _Unavailable_ †
-⚠️ **get_imported_file** _Unavailable_ †
-⚠️ **get_item_position** _Unavailable_ †
-⚠️ **get_layer_by_name** _Unavailable_ †
-⚠️ **get_layer_by_tattoo** _Unavailable_ †
-⚠️ **get_layers** _Unavailable_ †
-⚠️ **get_metadata** _Unavailable_ †
-⚠️ **get_name** _Unavailable_ †
-⚠️ **get_palette** _Unavailable_ †
-⚠️ **get_parasite** _Unavailable_ †
-⚠️ **get_parasite_list** _Unavailable_ †
-⚠️ **get_path_by_name** _Unavailable_ †
-⚠️ **get_path_by_tattoo** _Unavailable_ †
-⚠️ **get_paths** _Unavailable_ †
-⚠️ **get_precision** _Unavailable_ †
-⚠️ **get_properties** _Unavailable_ †
-⚠️ **get_property** _Unavailable_ †
-⚠️ **get_qdata** _Unavailable_ †
-⚠️ **get_resolution** _Unavailable_ †
-⚠️ **get_sample_point_position** _Unavailable_ †
-⚠️ **get_selected_channels** _Unavailable_ †
-⚠️ **get_selected_drawables** _Unavailable_ †
-⚠️ **get_selected_layers** _Unavailable_ †
-⚠️ **get_selected_paths** _Unavailable_ †
-⚠️ **get_selection** _Unavailable_ †
-⚠️ **get_simulation_bpc** _Unavailable_ †
-⚠️ **get_simulation_intent** _Unavailable_ †
-⚠️ **get_simulation_profile** _Unavailable_ †
-⚠️ **get_tattoo_state** _Unavailable_ †
-⚠️ **get_thumbnail** _Unavailable_ †
-⚠️ **get_thumbnail_data** _Unavailable_ †
-⚠️ **get_unit** _Unavailable_ †
-⚠️ **get_width** _Unavailable_ †
-⚠️ **get_xcf_file** _Unavailable_ †
+⚠️ **get_base_type** _Unavailable_ †<br>
+⚠️ **get_by_id** _Unavailable_ †<br>
+⚠️ **get_channel_by_name** _Unavailable_ †<br>
+⚠️ **get_channel_by_tattoo** _Unavailable_ †<br>
+⚠️ **get_channels** _Unavailable_ †<br>
+⚠️ **get_color_profile** _Unavailable_ †<br>
+⚠️ **get_component_active** _Unavailable_ †<br>
+⚠️ **get_component_visible** _Unavailable_ †<br>
+⚠️ **get_data** _Unavailable_ †<br>
+⚠️ **get_default_new_layer_mode** _Unavailable_ †<br>
+⚠️ **get_effective_color_profile** _Unavailable_ †<br>
+⚠️ **get_exported_file** _Unavailable_ †<br>
+⚠️ **get_file** _Unavailable_ †<br>
+⚠️ **get_floating_sel** _Unavailable_ †<br>
+⚠️ **get_guide_orientation** _Unavailable_ †<br>
+⚠️ **get_guide_position** _Unavailable_ †<br>
+⚠️ **get_height** _Unavailable_ †<br>
+⚠️ **get_id** _Unavailable_ †<br>
+⚠️ **get_imported_file** _Unavailable_ †<br>
+⚠️ **get_item_position** _Unavailable_ †<br>
+⚠️ **get_layer_by_name** _Unavailable_ †<br>
+⚠️ **get_layer_by_tattoo** _Unavailable_ †<br>
+⚠️ **get_layers** _Unavailable_ †<br>
+⚠️ **get_metadata** _Unavailable_ †<br>
+⚠️ **get_name** _Unavailable_ †<br>
+⚠️ **get_palette** _Unavailable_ †<br>
+⚠️ **get_parasite** _Unavailable_ †<br>
+⚠️ **get_parasite_list** _Unavailable_ †<br>
+⚠️ **get_path_by_name** _Unavailable_ †<br>
+⚠️ **get_path_by_tattoo** _Unavailable_ †<br>
+⚠️ **get_paths** _Unavailable_ †<br>
+⚠️ **get_precision** _Unavailable_ †<br>
+⚠️ **get_properties** _Unavailable_ †<br>
+⚠️ **get_property** _Unavailable_ †<br>
+⚠️ **get_qdata** _Unavailable_ †<br>
+⚠️ **get_resolution** _Unavailable_ †<br>
+⚠️ **get_sample_point_position** _Unavailable_ †<br>
+⚠️ **get_selected_channels** _Unavailable_ †<br>
+⚠️ **get_selected_drawables** _Unavailable_ †<br>
+⚠️ **get_selected_layers** _Unavailable_ †<br>
+⚠️ **get_selected_paths** _Unavailable_ †<br>
+⚠️ **get_selection** _Unavailable_ †<br>
+⚠️ **get_simulation_bpc** _Unavailable_ †<br>
+⚠️ **get_simulation_intent** _Unavailable_ †<br>
+⚠️ **get_simulation_profile** _Unavailable_ †<br>
+⚠️ **get_tattoo_state** _Unavailable_ †<br>
+⚠️ **get_thumbnail** _Unavailable_ †<br>
+⚠️ **get_thumbnail_data** _Unavailable_ †<br>
+⚠️ **get_unit** _Unavailable_ †<br>
+⚠️ **get_width** _Unavailable_ †<br>
+⚠️ **get_xcf_file** _Unavailable_ †<br>
 - #### 🔹 grid Methods
 <a name="grid-methods"></a>
-⚠️ **grid_get_background_color** _Unavailable_ †
-⚠️ **grid_get_foreground_color** _Unavailable_ †
-⚠️ **grid_get_offset** _Unavailable_ †
-⚠️ **grid_get_spacing** _Unavailable_ †
-⚠️ **grid_get_style** _Unavailable_ †
-⚠️ **grid_set_background_color** _Unavailable_ †
-⚠️ **grid_set_foreground_color** _Unavailable_ †
-⚠️ **grid_set_offset** _Unavailable_ †
-⚠️ **grid_set_spacing** _Unavailable_ †
-⚠️ **grid_set_style** _Unavailable_ †
+⚠️ **grid_get_background_color** _Unavailable_ †<br>
+⚠️ **grid_get_foreground_color** _Unavailable_ †<br>
+⚠️ **grid_get_offset** _Unavailable_ †<br>
+⚠️ **grid_get_spacing** _Unavailable_ †<br>
+⚠️ **grid_get_style** _Unavailable_ †<br>
+⚠️ **grid_set_background_color** _Unavailable_ †<br>
+⚠️ **grid_set_foreground_color** _Unavailable_ †<br>
+⚠️ **grid_set_offset** _Unavailable_ †<br>
+⚠️ **grid_set_spacing** _Unavailable_ †<br>
+⚠️ **grid_set_style** _Unavailable_ †<br>
 - #### 🔹 handler Methods
 <a name="handler-methods"></a>
-⚠️ **handler_block** _Unavailable_ †
-⚠️ **handler_block_by_func** _Unavailable_ †
-⚠️ **handler_disconnect** _Unavailable_ †
-⚠️ **handler_is_connected** _Unavailable_ †
-⚠️ **handler_unblock** _Unavailable_ †
-⚠️ **handler_unblock_by_func** _Unavailable_ †
+⚠️ **handler_block** _Unavailable_ †<br>
+⚠️ **handler_block_by_func** _Unavailable_ †<br>
+⚠️ **handler_disconnect** _Unavailable_ †<br>
+⚠️ **handler_is_connected** _Unavailable_ †<br>
+⚠️ **handler_unblock** _Unavailable_ †<br>
+⚠️ **handler_unblock_by_func** _Unavailable_ †<br>
 - #### 🔹 import Methods
 <a name="import-methods"></a>
-⚠️ **import_paths_from_file** _Unavailable_ †
-⚠️ **import_paths_from_string** _Unavailable_ †
+⚠️ **import_paths_from_file** _Unavailable_ †<br>
+⚠️ **import_paths_from_string** _Unavailable_ †<br>
 - #### 🔹 insert Methods
 <a name="insert-methods"></a>
-⚠️ **insert_channel** _Unavailable_ †
-⚠️ **insert_layer** _Unavailable_ †
-⚠️ **insert_path** _Unavailable_ †
+⚠️ **insert_channel** _Unavailable_ †<br>
+⚠️ **insert_layer** _Unavailable_ †<br>
+⚠️ **insert_path** _Unavailable_ †<br>
 - #### 🔹 install Methods
 <a name="install-methods"></a>
-⚠️ **install_properties** _Unavailable_ †
-⚠️ **install_property** _Unavailable_ †
+⚠️ **install_properties** _Unavailable_ †<br>
+⚠️ **install_property** _Unavailable_ †<br>
 - #### 🔹 interface Methods
 <a name="interface-methods"></a>
-⚠️ **interface_find_property** _Unavailable_ †
-⚠️ **interface_install_property** _Unavailable_ †
-⚠️ **interface_list_properties** _Unavailable_ †
+⚠️ **interface_find_property** _Unavailable_ †<br>
+⚠️ **interface_install_property** _Unavailable_ †<br>
+⚠️ **interface_list_properties** _Unavailable_ †<br>
 - #### 🔹 is Methods
 <a name="is-methods"></a>
-⚠️ **is_dirty** _Unavailable_ †
-⚠️ **is_floating** _Unavailable_ †
-⚠️ **is_valid** _Unavailable_ †
+⚠️ **is_dirty** _Unavailable_ †<br>
+⚠️ **is_floating** _Unavailable_ †<br>
+⚠️ **is_valid** _Unavailable_ †<br>
 - #### 🔹 lower Methods
 <a name="lower-methods"></a>
-⚠️ **lower_item** _Unavailable_ †
-⚠️ **lower_item_to_bottom** _Unavailable_ †
+⚠️ **lower_item** _Unavailable_ †<br>
+⚠️ **lower_item_to_bottom** _Unavailable_ †<br>
 - #### 🔹 merge Methods
 <a name="merge-methods"></a>
-⚠️ **merge_down** _Unavailable_ †
-⚠️ **merge_visible_layers** _Unavailable_ †
+⚠️ **merge_down** _Unavailable_ †<br>
+⚠️ **merge_visible_layers** _Unavailable_ †<br>
 - #### 🔹 metadata Methods
 <a name="metadata-methods"></a>
-⚠️ **metadata_load_thumbnail** _Unavailable_ †
-⚠️ **metadata_save_filter** _Unavailable_ †
-⚠️ **metadata_save_prepare** _Unavailable_ †
+⚠️ **metadata_load_thumbnail** _Unavailable_ †<br>
+⚠️ **metadata_save_filter** _Unavailable_ †<br>
+⚠️ **metadata_save_prepare** _Unavailable_ †<br>
 - #### 🔹 new Methods
 <a name="new-methods"></a>
-⚠️ **new** _Unavailable_ †
-⚠️ **new_with_precision** _Unavailable_ †
+⚠️ **new** _Unavailable_ †<br>
+⚠️ **new_with_precision** _Unavailable_ †<br>
 - #### 🔹 notify Methods
 <a name="notify-methods"></a>
-⚠️ **notify** _Unavailable_ †
-⚠️ **notify_by_pspec** _Unavailable_ †
+⚠️ **notify** _Unavailable_ †<br>
+⚠️ **notify_by_pspec** _Unavailable_ †<br>
 - #### 🔹 pick Methods
 <a name="pick-methods"></a>
-⚠️ **pick_color** _Unavailable_ †
-⚠️ **pick_correlate_layer** _Unavailable_ †
+⚠️ **pick_color** _Unavailable_ †<br>
+⚠️ **pick_correlate_layer** _Unavailable_ †<br>
 - #### 🔹 policy Methods
 <a name="policy-methods"></a>
-⚠️ **policy_color_profile** _Unavailable_ †
-⚠️ **policy_rotate** _Unavailable_ †
+⚠️ **policy_color_profile** _Unavailable_ †<br>
+⚠️ **policy_rotate** _Unavailable_ †<br>
 - #### 🔹 raise Methods
 <a name="raise-methods"></a>
-⚠️ **raise_item** _Unavailable_ †
-⚠️ **raise_item_to_top** _Unavailable_ †
+⚠️ **raise_item** _Unavailable_ †<br>
+⚠️ **raise_item_to_top** _Unavailable_ †<br>
 - #### 🔹 ref Methods
 <a name="ref-methods"></a>
-⚠️ **ref** _Unavailable_ †
-⚠️ **ref_sink** _Unavailable_ †
+⚠️ **ref** _Unavailable_ †<br>
+⚠️ **ref_sink** _Unavailable_ †<br>
 - #### 🔹 remove Methods
 <a name="remove-methods"></a>
-⚠️ **remove_channel** _Unavailable_ †
-⚠️ **remove_layer** _Unavailable_ †
-⚠️ **remove_path** _Unavailable_ †
+⚠️ **remove_channel** _Unavailable_ †<br>
+⚠️ **remove_layer** _Unavailable_ †<br>
+⚠️ **remove_path** _Unavailable_ †<br>
 - #### 🔹 replace Methods
 <a name="replace-methods"></a>
-⚠️ **replace_data** _Unavailable_ †
-⚠️ **replace_qdata** _Unavailable_ †
+⚠️ **replace_data** _Unavailable_ †<br>
+⚠️ **replace_qdata** _Unavailable_ †<br>
 - #### 🔹 resize Methods
 <a name="resize-methods"></a>
-⚠️ **resize** _Unavailable_ †
-⚠️ **resize_to_layers** _Unavailable_ †
+⚠️ **resize** _Unavailable_ †<br>
+⚠️ **resize_to_layers** _Unavailable_ †<br>
 - #### 🔹 select Methods
 <a name="select-methods"></a>
-⚠️ **select_color** _Unavailable_ †
-⚠️ **select_contiguous_color** _Unavailable_ †
-⚠️ **select_ellipse** _Unavailable_ †
-⚠️ **select_item** _Unavailable_ †
-⚠️ **select_polygon** _Unavailable_ †
-⚠️ **select_rectangle** _Unavailable_ †
-⚠️ **select_round_rectangle** _Unavailable_ †
+⚠️ **select_color** _Unavailable_ †<br>
+⚠️ **select_contiguous_color** _Unavailable_ †<br>
+⚠️ **select_ellipse** _Unavailable_ †<br>
+⚠️ **select_item** _Unavailable_ †<br>
+⚠️ **select_polygon** _Unavailable_ †<br>
+⚠️ **select_rectangle** _Unavailable_ †<br>
+⚠️ **select_round_rectangle** _Unavailable_ †<br>
 - #### 🔹 set Methods
 <a name="set-methods"></a>
-⚠️ **set_color_profile** _Unavailable_ †
-⚠️ **set_color_profile_from_file** _Unavailable_ †
-⚠️ **set_component_active** _Unavailable_ †
-⚠️ **set_component_visible** _Unavailable_ †
-⚠️ **set_data** _Unavailable_ †
-⚠️ **set_file** _Unavailable_ †
-⚠️ **set_metadata** _Unavailable_ †
-⚠️ **set_palette** _Unavailable_ †
-⚠️ **set_properties** _Unavailable_ †
-⚠️ **set_property** _Unavailable_ †
-⚠️ **set_resolution** _Unavailable_ †
-⚠️ **set_selected_channels** _Unavailable_ †
-⚠️ **set_selected_layers** _Unavailable_ †
-⚠️ **set_selected_paths** _Unavailable_ †
-⚠️ **set_simulation_bpc** _Unavailable_ †
-⚠️ **set_simulation_intent** _Unavailable_ †
-⚠️ **set_simulation_profile** _Unavailable_ †
-⚠️ **set_simulation_profile_from_file** _Unavailable_ †
-⚠️ **set_tattoo_state** _Unavailable_ †
-⚠️ **set_unit** _Unavailable_ †
+⚠️ **set_color_profile** _Unavailable_ †<br>
+⚠️ **set_color_profile_from_file** _Unavailable_ †<br>
+⚠️ **set_component_active** _Unavailable_ †<br>
+⚠️ **set_component_visible** _Unavailable_ †<br>
+⚠️ **set_data** _Unavailable_ †<br>
+⚠️ **set_file** _Unavailable_ †<br>
+⚠️ **set_metadata** _Unavailable_ †<br>
+⚠️ **set_palette** _Unavailable_ †<br>
+⚠️ **set_properties** _Unavailable_ †<br>
+⚠️ **set_property** _Unavailable_ †<br>
+⚠️ **set_resolution** _Unavailable_ †<br>
+⚠️ **set_selected_channels** _Unavailable_ †<br>
+⚠️ **set_selected_layers** _Unavailable_ †<br>
+⚠️ **set_selected_paths** _Unavailable_ †<br>
+⚠️ **set_simulation_bpc** _Unavailable_ †<br>
+⚠️ **set_simulation_intent** _Unavailable_ †<br>
+⚠️ **set_simulation_profile** _Unavailable_ †<br>
+⚠️ **set_simulation_profile_from_file** _Unavailable_ †<br>
+⚠️ **set_tattoo_state** _Unavailable_ †<br>
+⚠️ **set_unit** _Unavailable_ †<br>
 - #### 🔹 steal Methods
 <a name="steal-methods"></a>
-⚠️ **steal_data** _Unavailable_ †
-⚠️ **steal_qdata** _Unavailable_ †
+⚠️ **steal_data** _Unavailable_ †<br>
+⚠️ **steal_qdata** _Unavailable_ †<br>
 - #### 🔹 stop Methods
 <a name="stop-methods"></a>
-⚠️ **stop_emission** _Unavailable_ †
-⚠️ **stop_emission_by_name** _Unavailable_ †
+⚠️ **stop_emission** _Unavailable_ †<br>
+⚠️ **stop_emission_by_name** _Unavailable_ †<br>
 - #### 🔹 take Methods
 <a name="take-methods"></a>
-⚠️ **take_selected_channels** _Unavailable_ †
-⚠️ **take_selected_layers** _Unavailable_ †
-⚠️ **take_selected_paths** _Unavailable_ †
+⚠️ **take_selected_channels** _Unavailable_ †<br>
+⚠️ **take_selected_layers** _Unavailable_ †<br>
+⚠️ **take_selected_paths** _Unavailable_ †<br>
 - #### 🔹 thaw Methods
 <a name="thaw-methods"></a>
-⚠️ **thaw_channels** _Unavailable_ †
-⚠️ **thaw_layers** _Unavailable_ †
-⚠️ **thaw_notify** _Unavailable_ †
-⚠️ **thaw_paths** _Unavailable_ †
+⚠️ **thaw_channels** _Unavailable_ †<br>
+⚠️ **thaw_layers** _Unavailable_ †<br>
+⚠️ **thaw_notify** _Unavailable_ †<br>
+⚠️ **thaw_paths** _Unavailable_ †<br>
 - #### 🔹 undo Methods
 <a name="undo-methods"></a>
-⚠️ **undo_disable** _Unavailable_ †
-⚠️ **undo_enable** _Unavailable_ †
-⚠️ **undo_freeze** _Unavailable_ †
-⚠️ **undo_group_end** _Unavailable_ †
-⚠️ **undo_group_start** _Unavailable_ †
-⚠️ **undo_is_enabled** _Unavailable_ †
-⚠️ **undo_thaw** _Unavailable_ †
+⚠️ **undo_disable** _Unavailable_ †<br>
+⚠️ **undo_enable** _Unavailable_ †<br>
+⚠️ **undo_freeze** _Unavailable_ †<br>
+⚠️ **undo_group_end** _Unavailable_ †<br>
+⚠️ **undo_group_start** _Unavailable_ †<br>
+⚠️ **undo_is_enabled** _Unavailable_ †<br>
+⚠️ **undo_thaw** _Unavailable_ †<br>
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **attach_parasite** _Unavailable_ †
-⚠️ **chain** _Unavailable_ †
-⚠️ **clean_all** _Unavailable_ †
-⚠️ **compat_control** _Unavailable_ †
-⚠️ **crop** _Unavailable_ †
-⚠️ **detach_parasite** _Unavailable_ †
-⚠️ **duplicate** _Unavailable_ †
-⚠️ **flatten** _Unavailable_ †
-⚠️ **flip** _Unavailable_ †
-⚠️ **floating_sel_attached_to** _Unavailable_ †
-⚠️ **force_floating** _Unavailable_ †
-⚠️ **getv** _Unavailable_ †
-⚠️ **id_is_valid** _Unavailable_ †
-⚠️ **list_properties** _Unavailable_ †
-⚠️ **newv** _Unavailable_ †
-⚠️ **override_property** _Unavailable_ †
-⚠️ **reorder_item** _Unavailable_ †
-⚠️ **rotate** _Unavailable_ †
-⚠️ **run_dispose** _Unavailable_ †
-⚠️ **scale** _Unavailable_ †
-⚠️ **unref** _Unavailable_ †
-⚠️ **unset_active_channel** _Unavailable_ †
-⚠️ **watch_closure** _Unavailable_ †
+⚠️ **attach_parasite** _Unavailable_ †<br>
+⚠️ **chain** _Unavailable_ †<br>
+⚠️ **clean_all** _Unavailable_ †<br>
+⚠️ **compat_control** _Unavailable_ †<br>
+⚠️ **crop** _Unavailable_ †<br>
+⚠️ **detach_parasite** _Unavailable_ †<br>
+⚠️ **duplicate** _Unavailable_ †<br>
+⚠️ **flatten** _Unavailable_ †<br>
+⚠️ **flip** _Unavailable_ †<br>
+⚠️ **floating_sel_attached_to** _Unavailable_ †<br>
+⚠️ **force_floating** _Unavailable_ †<br>
+⚠️ **getv** _Unavailable_ †<br>
+⚠️ **id_is_valid** _Unavailable_ †<br>
+⚠️ **list_properties** _Unavailable_ †<br>
+⚠️ **newv** _Unavailable_ †<br>
+⚠️ **override_property** _Unavailable_ †<br>
+⚠️ **reorder_item** _Unavailable_ †<br>
+⚠️ **rotate** _Unavailable_ †<br>
+⚠️ **run_dispose** _Unavailable_ †<br>
+⚠️ **scale** _Unavailable_ †<br>
+⚠️ **unref** _Unavailable_ †<br>
+⚠️ **unset_active_channel** _Unavailable_ †<br>
+⚠️ **watch_closure** _Unavailable_ †<br>
+⚠️ **weak_ref** _Unavailable_ †<br>
+### 🔒 Private Methods
+<a name="private-methods"></a>
+- #### 🔒 ref Methods
+<a name="ref-methods"></a>
+⚠️ **_ref** _Unavailable_ †<br>
+⚠️ **_ref_sink** _Unavailable_ †<br>
+- #### 🔒 unsupported Methods
+<a name="unsupported-methods"></a>
+⚠️ **_unsupported_data_method** _Unavailable_ †<br>
+⚠️ **_unsupported_method** _Unavailable_ †<br>
+- #### 🔒 ungrouped Methods
+<a name="ungrouped-methods"></a>
+⚠️ **_force_floating** _Unavailable_ †<br>
+⚠️ **_unref** _Unavailable_ †<br>
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(self, /, *args, **kwargs)`
-  - **__init_subclass__** `()`
+  - **__init__** `(self, /, *args, **kwargs)`<br>
+  - **__init_subclass__** `()`<br>
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`
-  - **__reduce_ex__** `(self, protocol, /)`
+  - **__reduce__** `(self, /)`<br>
+  - **__reduce_ex__** `(self, protocol, /)`<br>
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-  - **__class__** `(name, bases, dict_)`
-⚠️ **__copy__** _Unavailable_ †
-⚠️ **__deepcopy__** _Unavailable_ †
-  - **__delattr__** `(self, name, /)`
-  - **__dir__** `(self, /)`
-  - **__eq__** `(self, value, /)`
-  - **__format__** `(self, format_spec, /)`
-  - **__ge__** `(self, value, /)`
-  - **__getattribute__** `(self, name, /)`
-  - **__getstate__** `(self, /)`
-  - **__gt__** `(self, value, /)`
-  - **__hash__** `(self, /)`
-  - **__le__** `(self, value, /)`
-  - **__lt__** `(self, value, /)`
-  - **__ne__** `(self, value, /)`
-  - **__new__** `(*args, **kwargs)`
-  - **__repr__** `(self, /)`
-  - **__setattr__** `(self, name, value, /)`
-  - **__sizeof__** `(self, /)`
-  - **__str__** `(self, /)`
-#### 📣 Signals<a name="signals-"></a>
-- None found
+  - **__class__** `(name, bases, dict_)`<br>
+⚠️ **__copy__** _Unavailable_ †<br>
+⚠️ **__deepcopy__** _Unavailable_ †<br>
+  - **__delattr__** `(self, name, /)`<br>
+  - **__dir__** `(self, /)`<br>
+  - **__eq__** `(self, value, /)`<br>
+  - **__format__** `(self, format_spec, /)`<br>
+  - **__ge__** `(self, value, /)`<br>
+  - **__getattribute__** `(self, name, /)`<br>
+  - **__getstate__** `(self, /)`<br>
+  - **__gt__** `(self, value, /)`<br>
+  - **__hash__** `(self, /)`<br>
+  - **__le__** `(self, value, /)`<br>
+  - **__lt__** `(self, value, /)`<br>
+  - **__ne__** `(self, value, /)`<br>
+  - **__new__** `(*args, **kwargs)`<br>
+  - **__repr__** `(self, /)`<br>
+  - **__setattr__** `(self, name, value, /)`<br>
+  - **__sizeof__** `(self, /)`<br>
+  - **__str__** `(self, /)`<br>
+  - **__subclasshook__** `(object, /)`<br>
+#### 🏷️ Properties
+<a name="properties-"></a>
+  - **id**: `gint` (read/write)
+<br>
+#### 📣 Signals
+<a name="signals-"></a>
+<br>- None found
+
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

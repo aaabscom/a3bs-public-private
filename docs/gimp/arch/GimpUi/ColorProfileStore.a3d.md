@@ -33,224 +33,259 @@ layout: default
     - [ 🔹 stop:Methods](#stop-methods)
     - [ 🔹 unref:Methods](#unref-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
+  - [ 🔒 Private:Methods](#private-methods)
+    - [ 🔒 convert:Methods](#convert-methods)
+    - [ 🔒 ref:Methods](#ref-methods)
+    - [ 🔒 unsupported:Methods](#unsupported-methods)
+    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
+- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: ColorProfileStore
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 add Methods
 <a name="add-methods"></a>
-⚠️ **add_child** _Unavailable_ †
-⚠️ **add_file** _Unavailable_ †
+⚠️ **add_child** _Unavailable_ †<br>
+⚠️ **add_file** _Unavailable_ †<br>
 - #### 🔹 bind Methods
 <a name="bind-methods"></a>
-⚠️ **bind_property** _Unavailable_ †
-⚠️ **bind_property_full** _Unavailable_ †
+⚠️ **bind_property** _Unavailable_ †<br>
+⚠️ **bind_property_full** _Unavailable_ †<br>
 - #### 🔹 connect Methods
 <a name="connect-methods"></a>
-⚠️ **connect** _Unavailable_ †
-⚠️ **connect_after** _Unavailable_ †
-⚠️ **connect_data** _Unavailable_ †
-⚠️ **connect_object** _Unavailable_ †
-⚠️ **connect_object_after** _Unavailable_ †
+⚠️ **connect** _Unavailable_ †<br>
+⚠️ **connect_after** _Unavailable_ †<br>
+⚠️ **connect_data** _Unavailable_ †<br>
+⚠️ **connect_object** _Unavailable_ †<br>
+⚠️ **connect_object_after** _Unavailable_ †<br>
 - #### 🔹 custom Methods
 <a name="custom-methods"></a>
-⚠️ **custom_finished** _Unavailable_ †
-⚠️ **custom_tag_end** _Unavailable_ †
-⚠️ **custom_tag_start** _Unavailable_ †
+⚠️ **custom_finished** _Unavailable_ †<br>
+⚠️ **custom_tag_end** _Unavailable_ †<br>
+⚠️ **custom_tag_start** _Unavailable_ †<br>
 - #### 🔹 disconnect Methods
 <a name="disconnect-methods"></a>
-⚠️ **disconnect** _Unavailable_ †
-⚠️ **disconnect_by_func** _Unavailable_ †
+⚠️ **disconnect** _Unavailable_ †<br>
+⚠️ **disconnect_by_func** _Unavailable_ †<br>
 - #### 🔹 drag Methods
 <a name="drag-methods"></a>
-⚠️ **drag_data_delete** _Unavailable_ †
-⚠️ **drag_data_get** _Unavailable_ †
-⚠️ **drag_data_received** _Unavailable_ †
+⚠️ **drag_data_delete** _Unavailable_ †<br>
+⚠️ **drag_data_get** _Unavailable_ †<br>
+⚠️ **drag_data_received** _Unavailable_ †<br>
 - #### 🔹 emit Methods
 <a name="emit-methods"></a>
-⚠️ **emit** _Unavailable_ †
-⚠️ **emit_stop_by_name** _Unavailable_ †
+⚠️ **emit** _Unavailable_ †<br>
+⚠️ **emit_stop_by_name** _Unavailable_ †<br>
 - #### 🔹 get Methods
 <a name="get-methods"></a>
-⚠️ **get** _Unavailable_ †
-⚠️ **get_column_type** _Unavailable_ †
-⚠️ **get_data** _Unavailable_ †
-⚠️ **get_flags** _Unavailable_ †
-⚠️ **get_internal_child** _Unavailable_ †
-⚠️ **get_iter** _Unavailable_ †
-⚠️ **get_iter_first** _Unavailable_ †
-⚠️ **get_iter_from_string** _Unavailable_ †
-⚠️ **get_n_columns** _Unavailable_ †
-⚠️ **get_name** _Unavailable_ †
-⚠️ **get_path** _Unavailable_ †
-⚠️ **get_properties** _Unavailable_ †
-⚠️ **get_property** _Unavailable_ †
-⚠️ **get_qdata** _Unavailable_ †
-⚠️ **get_sort_column_id** _Unavailable_ †
-⚠️ **get_string_from_iter** _Unavailable_ †
-⚠️ **get_value** _Unavailable_ †
+⚠️ **get** _Unavailable_ †<br>
+⚠️ **get_column_type** _Unavailable_ †<br>
+⚠️ **get_data** _Unavailable_ †<br>
+⚠️ **get_flags** _Unavailable_ †<br>
+⚠️ **get_internal_child** _Unavailable_ †<br>
+⚠️ **get_iter** _Unavailable_ †<br>
+⚠️ **get_iter_first** _Unavailable_ †<br>
+⚠️ **get_iter_from_string** _Unavailable_ †<br>
+⚠️ **get_n_columns** _Unavailable_ †<br>
+⚠️ **get_name** _Unavailable_ †<br>
+⚠️ **get_path** _Unavailable_ †<br>
+⚠️ **get_properties** _Unavailable_ †<br>
+⚠️ **get_property** _Unavailable_ †<br>
+⚠️ **get_qdata** _Unavailable_ †<br>
+⚠️ **get_sort_column_id** _Unavailable_ †<br>
+⚠️ **get_string_from_iter** _Unavailable_ †<br>
+⚠️ **get_value** _Unavailable_ †<br>
 - #### 🔹 handler Methods
 <a name="handler-methods"></a>
-⚠️ **handler_block** _Unavailable_ †
-⚠️ **handler_block_by_func** _Unavailable_ †
-⚠️ **handler_disconnect** _Unavailable_ †
-⚠️ **handler_is_connected** _Unavailable_ †
-⚠️ **handler_unblock** _Unavailable_ †
-⚠️ **handler_unblock_by_func** _Unavailable_ †
+⚠️ **handler_block** _Unavailable_ †<br>
+⚠️ **handler_block_by_func** _Unavailable_ †<br>
+⚠️ **handler_disconnect** _Unavailable_ †<br>
+⚠️ **handler_is_connected** _Unavailable_ †<br>
+⚠️ **handler_unblock** _Unavailable_ †<br>
+⚠️ **handler_unblock_by_func** _Unavailable_ †<br>
 - #### 🔹 insert Methods
 <a name="insert-methods"></a>
-⚠️ **insert** _Unavailable_ †
-⚠️ **insert_after** _Unavailable_ †
-⚠️ **insert_before** _Unavailable_ †
-⚠️ **insert_with_values** _Unavailable_ †
-⚠️ **insert_with_valuesv** _Unavailable_ †
+⚠️ **insert** _Unavailable_ †<br>
+⚠️ **insert_after** _Unavailable_ †<br>
+⚠️ **insert_before** _Unavailable_ †<br>
+⚠️ **insert_with_values** _Unavailable_ †<br>
+⚠️ **insert_with_valuesv** _Unavailable_ †<br>
 - #### 🔹 install Methods
 <a name="install-methods"></a>
-⚠️ **install_properties** _Unavailable_ †
-⚠️ **install_property** _Unavailable_ †
+⚠️ **install_properties** _Unavailable_ †<br>
+⚠️ **install_property** _Unavailable_ †<br>
 - #### 🔹 interface Methods
 <a name="interface-methods"></a>
-⚠️ **interface_find_property** _Unavailable_ †
-⚠️ **interface_install_property** _Unavailable_ †
-⚠️ **interface_list_properties** _Unavailable_ †
+⚠️ **interface_find_property** _Unavailable_ †<br>
+⚠️ **interface_install_property** _Unavailable_ †<br>
+⚠️ **interface_list_properties** _Unavailable_ †<br>
 - #### 🔹 iter Methods
 <a name="iter-methods"></a>
-⚠️ **iter_children** _Unavailable_ †
-⚠️ **iter_has_child** _Unavailable_ †
-⚠️ **iter_is_valid** _Unavailable_ †
-⚠️ **iter_n_children** _Unavailable_ †
-⚠️ **iter_next** _Unavailable_ †
-⚠️ **iter_nth_child** _Unavailable_ †
-⚠️ **iter_parent** _Unavailable_ †
-⚠️ **iter_previous** _Unavailable_ †
+⚠️ **iter_children** _Unavailable_ †<br>
+⚠️ **iter_has_child** _Unavailable_ †<br>
+⚠️ **iter_is_valid** _Unavailable_ †<br>
+⚠️ **iter_n_children** _Unavailable_ †<br>
+⚠️ **iter_next** _Unavailable_ †<br>
+⚠️ **iter_nth_child** _Unavailable_ †<br>
+⚠️ **iter_parent** _Unavailable_ †<br>
+⚠️ **iter_previous** _Unavailable_ †<br>
 - #### 🔹 move Methods
 <a name="move-methods"></a>
-⚠️ **move_after** _Unavailable_ †
-⚠️ **move_before** _Unavailable_ †
+⚠️ **move_after** _Unavailable_ †<br>
+⚠️ **move_before** _Unavailable_ †<br>
 - #### 🔹 notify Methods
 <a name="notify-methods"></a>
-⚠️ **notify** _Unavailable_ †
-⚠️ **notify_by_pspec** _Unavailable_ †
+⚠️ **notify** _Unavailable_ †<br>
+⚠️ **notify_by_pspec** _Unavailable_ †<br>
 - #### 🔹 ref Methods
 <a name="ref-methods"></a>
-⚠️ **ref** _Unavailable_ †
-⚠️ **ref_node** _Unavailable_ †
-⚠️ **ref_sink** _Unavailable_ †
+⚠️ **ref** _Unavailable_ †<br>
+⚠️ **ref_node** _Unavailable_ †<br>
+⚠️ **ref_sink** _Unavailable_ †<br>
 - #### 🔹 replace Methods
 <a name="replace-methods"></a>
-⚠️ **replace_data** _Unavailable_ †
-⚠️ **replace_qdata** _Unavailable_ †
+⚠️ **replace_data** _Unavailable_ †<br>
+⚠️ **replace_qdata** _Unavailable_ †<br>
 - #### 🔹 row Methods
 <a name="row-methods"></a>
-⚠️ **row_changed** _Unavailable_ †
-⚠️ **row_deleted** _Unavailable_ †
-⚠️ **row_draggable** _Unavailable_ †
-⚠️ **row_drop_possible** _Unavailable_ †
-⚠️ **row_has_child_toggled** _Unavailable_ †
-⚠️ **row_inserted** _Unavailable_ †
+⚠️ **row_changed** _Unavailable_ †<br>
+⚠️ **row_deleted** _Unavailable_ †<br>
+⚠️ **row_draggable** _Unavailable_ †<br>
+⚠️ **row_drop_possible** _Unavailable_ †<br>
+⚠️ **row_has_child_toggled** _Unavailable_ †<br>
+⚠️ **row_inserted** _Unavailable_ †<br>
 - #### 🔹 set Methods
 <a name="set-methods"></a>
-⚠️ **set** _Unavailable_ †
-⚠️ **set_buildable_property** _Unavailable_ †
-⚠️ **set_column_types** _Unavailable_ †
-⚠️ **set_data** _Unavailable_ †
-⚠️ **set_default_sort_func** _Unavailable_ †
-⚠️ **set_name** _Unavailable_ †
-⚠️ **set_properties** _Unavailable_ †
-⚠️ **set_property** _Unavailable_ †
-⚠️ **set_row** _Unavailable_ †
-⚠️ **set_sort_column_id** _Unavailable_ †
-⚠️ **set_sort_func** _Unavailable_ †
-⚠️ **set_value** _Unavailable_ †
+⚠️ **set** _Unavailable_ †<br>
+⚠️ **set_buildable_property** _Unavailable_ †<br>
+⚠️ **set_column_types** _Unavailable_ †<br>
+⚠️ **set_data** _Unavailable_ †<br>
+⚠️ **set_default_sort_func** _Unavailable_ †<br>
+⚠️ **set_name** _Unavailable_ †<br>
+⚠️ **set_properties** _Unavailable_ †<br>
+⚠️ **set_property** _Unavailable_ †<br>
+⚠️ **set_row** _Unavailable_ †<br>
+⚠️ **set_sort_column_id** _Unavailable_ †<br>
+⚠️ **set_sort_func** _Unavailable_ †<br>
+⚠️ **set_value** _Unavailable_ †<br>
 - #### 🔹 sort Methods
 <a name="sort-methods"></a>
-⚠️ **sort_column_changed** _Unavailable_ †
-⚠️ **sort_new_with_model** _Unavailable_ †
+⚠️ **sort_column_changed** _Unavailable_ †<br>
+⚠️ **sort_new_with_model** _Unavailable_ †<br>
 - #### 🔹 steal Methods
 <a name="steal-methods"></a>
-⚠️ **steal_data** _Unavailable_ †
-⚠️ **steal_qdata** _Unavailable_ †
+⚠️ **steal_data** _Unavailable_ †<br>
+⚠️ **steal_qdata** _Unavailable_ †<br>
 - #### 🔹 stop Methods
 <a name="stop-methods"></a>
-⚠️ **stop_emission** _Unavailable_ †
-⚠️ **stop_emission_by_name** _Unavailable_ †
+⚠️ **stop_emission** _Unavailable_ †<br>
+⚠️ **stop_emission_by_name** _Unavailable_ †<br>
 - #### 🔹 unref Methods
 <a name="unref-methods"></a>
-⚠️ **unref** _Unavailable_ †
-⚠️ **unref_node** _Unavailable_ †
+⚠️ **unref** _Unavailable_ †<br>
+⚠️ **unref_node** _Unavailable_ †<br>
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **append** _Unavailable_ †
-⚠️ **chain** _Unavailable_ †
-⚠️ **clear** _Unavailable_ †
-⚠️ **compat_control** _Unavailable_ †
-⚠️ **construct_child** _Unavailable_ †
-⚠️ **filter_new** _Unavailable_ †
-⚠️ **find_property** _Unavailable_ †
-⚠️ **force_floating** _Unavailable_ †
-⚠️ **foreach** _Unavailable_ †
-⚠️ **freeze_notify** _Unavailable_ †
-⚠️ **getv** _Unavailable_ †
-⚠️ **has_default_sort_func** _Unavailable_ †
-⚠️ **is_floating** _Unavailable_ †
-⚠️ **list_properties** _Unavailable_ †
-⚠️ **new** _Unavailable_ †
-⚠️ **newv** _Unavailable_ †
-⚠️ **override_property** _Unavailable_ †
-⚠️ **parser_finished** _Unavailable_ †
-⚠️ **prepend** _Unavailable_ †
-⚠️ **remove** _Unavailable_ †
-⚠️ **reorder** _Unavailable_ †
-⚠️ **rows_reordered** _Unavailable_ †
-⚠️ **run_dispose** _Unavailable_ †
-⚠️ **swap** _Unavailable_ †
-⚠️ **thaw_notify** _Unavailable_ †
-⚠️ **watch_closure** _Unavailable_ †
+⚠️ **append** _Unavailable_ †<br>
+⚠️ **chain** _Unavailable_ †<br>
+⚠️ **clear** _Unavailable_ †<br>
+⚠️ **compat_control** _Unavailable_ †<br>
+⚠️ **construct_child** _Unavailable_ †<br>
+⚠️ **filter_new** _Unavailable_ †<br>
+⚠️ **find_property** _Unavailable_ †<br>
+⚠️ **force_floating** _Unavailable_ †<br>
+⚠️ **foreach** _Unavailable_ †<br>
+⚠️ **freeze_notify** _Unavailable_ †<br>
+⚠️ **getv** _Unavailable_ †<br>
+⚠️ **has_default_sort_func** _Unavailable_ †<br>
+⚠️ **is_floating** _Unavailable_ †<br>
+⚠️ **list_properties** _Unavailable_ †<br>
+⚠️ **new** _Unavailable_ †<br>
+⚠️ **newv** _Unavailable_ †<br>
+⚠️ **override_property** _Unavailable_ †<br>
+⚠️ **parser_finished** _Unavailable_ †<br>
+⚠️ **prepend** _Unavailable_ †<br>
+⚠️ **remove** _Unavailable_ †<br>
+⚠️ **reorder** _Unavailable_ †<br>
+⚠️ **rows_reordered** _Unavailable_ †<br>
+⚠️ **run_dispose** _Unavailable_ †<br>
+⚠️ **swap** _Unavailable_ †<br>
+⚠️ **thaw_notify** _Unavailable_ †<br>
+⚠️ **watch_closure** _Unavailable_ †<br>
+⚠️ **weak_ref** _Unavailable_ †<br>
+### 🔒 Private Methods
+<a name="private-methods"></a>
+- #### 🔒 convert Methods
+<a name="convert-methods"></a>
+⚠️ **_convert_row** _Unavailable_ †<br>
+⚠️ **_convert_value** _Unavailable_ †<br>
+- #### 🔒 ref Methods
+<a name="ref-methods"></a>
+⚠️ **_ref** _Unavailable_ †<br>
+⚠️ **_ref_sink** _Unavailable_ †<br>
+- #### 🔒 unsupported Methods
+<a name="unsupported-methods"></a>
+⚠️ **_unsupported_data_method** _Unavailable_ †<br>
+⚠️ **_unsupported_method** _Unavailable_ †<br>
+- #### 🔒 ungrouped Methods
+<a name="ungrouped-methods"></a>
+⚠️ **_coerce_path** _Unavailable_ †<br>
+⚠️ **_do_insert** _Unavailable_ †<br>
+⚠️ **_force_floating** _Unavailable_ †<br>
+⚠️ **_getiter** _Unavailable_ †<br>
+⚠️ **_unref** _Unavailable_ †<br>
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(self, *column_types)`
-  - **__init_subclass__** `()`
+  - **__init__** `(self, *column_types)`<br>
+  - **__init_subclass__** `()`<br>
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`
-  - **__reduce_ex__** `(self, protocol, /)`
+  - **__reduce__** `(self, /)`<br>
+  - **__reduce_ex__** `(self, protocol, /)`<br>
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **__bool__** _Unavailable_ †
-  - **__class__** `(name, bases, dict_)`
-⚠️ **__copy__** _Unavailable_ †
-⚠️ **__deepcopy__** _Unavailable_ †
-  - **__delattr__** `(self, name, /)`
-⚠️ **__delitem__** _Unavailable_ †
-  - **__dir__** `(self, /)`
-  - **__eq__** `(self, value, /)`
-  - **__format__** `(self, format_spec, /)`
-  - **__ge__** `(self, value, /)`
-  - **__getattribute__** `(self, name, /)`
-⚠️ **__getitem__** _Unavailable_ †
-  - **__getstate__** `(self, /)`
-  - **__gt__** `(self, value, /)`
-  - **__hash__** `(self, /)`
-⚠️ **__iter__** _Unavailable_ †
-  - **__le__** `(self, value, /)`
-⚠️ **__len__** _Unavailable_ †
-  - **__lt__** `(self, value, /)`
-  - **__ne__** `(self, value, /)`
-  - **__new__** `(*args, **kwargs)`
-  - **__repr__** `(self, /)`
-  - **__setattr__** `(self, name, value, /)`
-⚠️ **__setitem__** _Unavailable_ †
-  - **__sizeof__** `(self, /)`
-  - **__str__** `(self, /)`
-  - **__subclasshook__** `(object, /)`
-#### 📣 Signals<a name="signals-"></a>
-- None found
+⚠️ **__bool__** _Unavailable_ †<br>
+  - **__class__** `(name, bases, dict_)`<br>
+⚠️ **__copy__** _Unavailable_ †<br>
+⚠️ **__deepcopy__** _Unavailable_ †<br>
+  - **__delattr__** `(self, name, /)`<br>
+⚠️ **__delitem__** _Unavailable_ †<br>
+  - **__dir__** `(self, /)`<br>
+  - **__eq__** `(self, value, /)`<br>
+  - **__format__** `(self, format_spec, /)`<br>
+  - **__ge__** `(self, value, /)`<br>
+  - **__getattribute__** `(self, name, /)`<br>
+⚠️ **__getitem__** _Unavailable_ †<br>
+  - **__getstate__** `(self, /)`<br>
+  - **__gt__** `(self, value, /)`<br>
+  - **__hash__** `(self, /)`<br>
+⚠️ **__iter__** _Unavailable_ †<br>
+  - **__le__** `(self, value, /)`<br>
+⚠️ **__len__** _Unavailable_ †<br>
+  - **__lt__** `(self, value, /)`<br>
+  - **__ne__** `(self, value, /)`<br>
+  - **__new__** `(*args, **kwargs)`<br>
+  - **__repr__** `(self, /)`<br>
+  - **__setattr__** `(self, name, value, /)`<br>
+⚠️ **__setitem__** _Unavailable_ †<br>
+  - **__sizeof__** `(self, /)`<br>
+  - **__str__** `(self, /)`<br>
+  - **__subclasshook__** `(object, /)`<br>
+  - **__weakref__** `(*args, **kwargs)`<br>
+#### 🏷️ Properties
+<a name="properties-"></a>
+  - **history**: `GFile` (read/write)
+<br>
+#### 📣 Signals
+<a name="signals-"></a>
+<br>- None found
+
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

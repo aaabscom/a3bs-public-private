@@ -12,67 +12,83 @@ layout: default
     - [ 🔹 get:Methods](#get-methods)
     - [ 🔹 new:Methods](#new-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
+  - [ 🔒 Private:Methods](#private-methods)
+    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
+- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: ValueArray
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 get Methods
 <a name="get-methods"></a>
-⚠️ **get_color_array** _Unavailable_ †
-⚠️ **get_core_object_array** _Unavailable_ †
+⚠️ **get_color_array** _Unavailable_ †<br>
+⚠️ **get_core_object_array** _Unavailable_ †<br>
 - #### 🔹 new Methods
 <a name="new-methods"></a>
-⚠️ **new** _Unavailable_ †
-⚠️ **new_from_values** _Unavailable_ †
+⚠️ **new** _Unavailable_ †<br>
+⚠️ **new_from_values** _Unavailable_ †<br>
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **append** _Unavailable_ †
-⚠️ **copy** _Unavailable_ †
-⚠️ **index** _Unavailable_ †
-⚠️ **insert** _Unavailable_ †
-⚠️ **length** _Unavailable_ †
-⚠️ **prepend** _Unavailable_ †
-⚠️ **ref** _Unavailable_ †
-⚠️ **remove** _Unavailable_ †
-⚠️ **truncate** _Unavailable_ †
+⚠️ **append** _Unavailable_ †<br>
+⚠️ **copy** _Unavailable_ †<br>
+⚠️ **index** _Unavailable_ †<br>
+⚠️ **insert** _Unavailable_ †<br>
+⚠️ **length** _Unavailable_ †<br>
+⚠️ **prepend** _Unavailable_ †<br>
+⚠️ **ref** _Unavailable_ †<br>
+⚠️ **remove** _Unavailable_ †<br>
+⚠️ **truncate** _Unavailable_ †<br>
+⚠️ **unref** _Unavailable_ †<br>
+### 🔒 Private Methods
+<a name="private-methods"></a>
+- #### 🔒 ungrouped Methods
+<a name="ungrouped-methods"></a>
+⚠️ **_clear_boxed** _Unavailable_ †<br>
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(*args, **kwargs)`
-  - **__init_subclass__** `()`
+  - **__init__** `(*args, **kwargs)`<br>
+  - **__init_subclass__** `()`<br>
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`
-  - **__reduce_ex__** `(self, protocol, /)`
+  - **__reduce__** `(self, /)`<br>
+  - **__reduce_ex__** `(self, protocol, /)`<br>
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-  - **__class__** `(name, bases, dict_)`
-  - **__delattr__** `(self, name, /)`
-  - **__dir__** `(self, /)`
-  - **__eq__** `(self, value, /)`
-  - **__format__** `(self, format_spec, /)`
-  - **__ge__** `(self, value, /)`
-  - **__getattribute__** `(self, name, /)`
-  - **__getstate__** `(self, /)`
-  - **__gt__** `(self, value, /)`
-  - **__hash__** `(self, /)`
-  - **__le__** `(self, value, /)`
-  - **__lt__** `(self, value, /)`
-  - **__ne__** `(self, value, /)`
-  - **__new__** `(*args, **kwargs)`
-  - **__repr__** `(self, /)`
-  - **__setattr__** `(self, name, value, /)`
-  - **__sizeof__** `(self, /)`
-  - **__str__** `(self, /)`
-  - **__subclasshook__** `(object, /)`
+  - **__class__** `(name, bases, dict_)`<br>
+  - **__delattr__** `(self, name, /)`<br>
+  - **__dir__** `(self, /)`<br>
+  - **__eq__** `(self, value, /)`<br>
+  - **__format__** `(self, format_spec, /)`<br>
+  - **__ge__** `(self, value, /)`<br>
+  - **__getattribute__** `(self, name, /)`<br>
+  - **__getstate__** `(self, /)`<br>
+  - **__gt__** `(self, value, /)`<br>
+  - **__hash__** `(self, /)`<br>
+  - **__le__** `(self, value, /)`<br>
+  - **__lt__** `(self, value, /)`<br>
+  - **__ne__** `(self, value, /)`<br>
+  - **__new__** `(*args, **kwargs)`<br>
+  - **__repr__** `(self, /)`<br>
+  - **__setattr__** `(self, name, value, /)`<br>
+  - **__sizeof__** `(self, /)`<br>
+  - **__str__** `(self, /)`<br>
+  - **__subclasshook__** `(object, /)`<br>
+  - **__weakref__** `(*args, **kwargs)`<br>
+#### 🏷️ Properties
+<a name="properties-"></a>
+_No properties found_
+<br>
 #### 📣 Signals
 <a name="signals-"></a>
-_No signal metadata found (not exposed by GI)_- None found
+_No signal metadata found (not exposed by GI)_
+<br>- None found
+
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

@@ -12,6 +12,10 @@ layout: default
     - [ 🔹 deserialize:Methods](#deserialize-methods)
     - [ 🔹 serialize:Methods](#serialize-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
+  - [ ⚙ Dunder:Methods](#dunder-methods)
+    - [ ⚙ init:Methods](#init-methods)
+    - [ ⚙ reduce:Methods](#reduce-methods)
+    - [ ⚙ ungrouped:Methods](#ungrouped-methods)
 - [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: Config
@@ -19,36 +23,72 @@ layout: default
 <a name="public-methods"></a>
 - #### 🔹 deserialize Methods
 <a name="deserialize-methods"></a>
-⚠️ **deserialize** _Unavailable_ †
-⚠️ **deserialize_file** _Unavailable_ †
-⚠️ **deserialize_parasite** _Unavailable_ †
-⚠️ **deserialize_properties** _Unavailable_ †
-⚠️ **deserialize_property** _Unavailable_ †
-⚠️ **deserialize_stream** _Unavailable_ †
-⚠️ **deserialize_string** _Unavailable_ †
+⚠️ **deserialize** _Unavailable_ †<br>
+⚠️ **deserialize_file** _Unavailable_ †<br>
+⚠️ **deserialize_parasite** _Unavailable_ †<br>
+⚠️ **deserialize_properties** _Unavailable_ †<br>
+⚠️ **deserialize_property** _Unavailable_ †<br>
+⚠️ **deserialize_stream** _Unavailable_ †<br>
+⚠️ **deserialize_string** _Unavailable_ †<br>
 - #### 🔹 serialize Methods
 <a name="serialize-methods"></a>
-⚠️ **serialize** _Unavailable_ †
-⚠️ **serialize_changed_properties** _Unavailable_ †
-⚠️ **serialize_properties** _Unavailable_ †
-⚠️ **serialize_property** _Unavailable_ †
-⚠️ **serialize_property_by_name** _Unavailable_ †
-⚠️ **serialize_to_fd** _Unavailable_ †
-⚠️ **serialize_to_file** _Unavailable_ †
-⚠️ **serialize_to_parasite** _Unavailable_ †
-⚠️ **serialize_to_stream** _Unavailable_ †
+⚠️ **serialize** _Unavailable_ †<br>
+⚠️ **serialize_changed_properties** _Unavailable_ †<br>
+⚠️ **serialize_properties** _Unavailable_ †<br>
+⚠️ **serialize_property** _Unavailable_ †<br>
+⚠️ **serialize_property_by_name** _Unavailable_ †<br>
+⚠️ **serialize_to_fd** _Unavailable_ †<br>
+⚠️ **serialize_to_file** _Unavailable_ †<br>
+⚠️ **serialize_to_parasite** _Unavailable_ †<br>
+⚠️ **serialize_to_stream** _Unavailable_ †<br>
+⚠️ **serialize_to_string** _Unavailable_ †<br>
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **copy** _Unavailable_ †
-⚠️ **duplicate** _Unavailable_ †
-⚠️ **is_equal_to** _Unavailable_ †
-⚠️ **reset** _Unavailable_ †
+⚠️ **copy** _Unavailable_ †<br>
+⚠️ **duplicate** _Unavailable_ †<br>
+⚠️ **is_equal_to** _Unavailable_ †<br>
+⚠️ **reset** _Unavailable_ †<br>
+### ⚙ Dunder Methods
+<a name="dunder-methods"></a>
+- #### ⚙ init Methods
+<a name="init-methods"></a>
+  - **__init__** `(self, /, *args, **kwargs)`<br>
+  - **__init_subclass__** `()`<br>
+- #### ⚙ reduce Methods
+<a name="reduce-methods"></a>
+  - **__reduce__** `(self, /)`<br>
+  - **__reduce_ex__** `(self, protocol, /)`<br>
+- #### ⚙ ungrouped Methods
+<a name="ungrouped-methods"></a>
+  - **__class__** `(name, bases, dict_)`<br>
+  - **__delattr__** `(self, name, /)`<br>
+  - **__dir__** `(self, /)`<br>
+  - **__eq__** `(self, value, /)`<br>
+  - **__format__** `(self, format_spec, /)`<br>
+  - **__ge__** `(self, value, /)`<br>
+  - **__getattribute__** `(self, name, /)`<br>
+  - **__getstate__** `(self, /)`<br>
+  - **__gt__** `(self, value, /)`<br>
+  - **__hash__** `(self, /)`<br>
+  - **__le__** `(self, value, /)`<br>
+  - **__lt__** `(self, value, /)`<br>
+  - **__ne__** `(self, value, /)`<br>
+  - **__new__** `(*args, **kwargs)`<br>
+  - **__repr__** `(self, /)`<br>
+  - **__setattr__** `(self, name, value, /)`<br>
+  - **__sizeof__** `(self, /)`<br>
+  - **__str__** `(self, /)`<br>
+  - **__subclasshook__** `(object, /)`<br>
+  - **__weakref__** `(*args, **kwargs)`<br>
 #### 🏷️ Properties
 <a name="properties-"></a>
 _No properties found_
+<br>
 #### 📣 Signals
 <a name="signals-"></a>
-_No signal metadata found (not exposed by GI)_- None found
+_No signal metadata found (not exposed by GI)_
+<br>- None found
+
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.
