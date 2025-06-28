@@ -1,5 +1,9 @@
 # remote_theme: jekyll/minima
 # OR remove the line entirely
+include:
+  - docs/gimp/arch/Gimp/*.a3d.md
+  - docs/gimp/arch/Gegl/*.a3d.md
+  - docs/gimp/arch/GimpUi/*.a3d.md
 title: A Cubed GIMP Docs
 description: GIMP 3 Python and PDB class references by A³BS
 markdown: kramdown
