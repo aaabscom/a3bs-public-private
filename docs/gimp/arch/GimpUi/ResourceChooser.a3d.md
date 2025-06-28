@@ -50,696 +50,621 @@ layout: default
     - [ 🔹 thaw:Methods](#thaw-methods)
     - [ 🔹 unset:Methods](#unset-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
-  - [ 🔒 Private:Methods](#private-methods)
-    - [ 🔒 ref:Methods](#ref-methods)
-    - [ 🔒 unsupported:Methods](#unsupported-methods)
-    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
-- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: ResourceChooser
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 add Methods
 <a name="add-methods"></a>
-⚠️ **add** _Unavailable_ †<br>
-⚠️ **add_accelerator** _Unavailable_ †<br>
-⚠️ **add_child** _Unavailable_ †<br>
-⚠️ **add_device_events** _Unavailable_ †<br>
-⚠️ **add_events** _Unavailable_ †<br>
-⚠️ **add_mnemonic_label** _Unavailable_ †<br>
-⚠️ **add_tick_callback** _Unavailable_ †<br>
+⚠️ **add** _Unavailable_ †
+⚠️ **add_accelerator** _Unavailable_ †
+⚠️ **add_child** _Unavailable_ †
+⚠️ **add_device_events** _Unavailable_ †
+⚠️ **add_events** _Unavailable_ †
+⚠️ **add_mnemonic_label** _Unavailable_ †
+⚠️ **add_tick_callback** _Unavailable_ †
 - #### 🔹 bind Methods
 <a name="bind-methods"></a>
-⚠️ **bind_property** _Unavailable_ †<br>
-⚠️ **bind_property_full** _Unavailable_ †<br>
-⚠️ **bind_template_callback_full** _Unavailable_ †<br>
-⚠️ **bind_template_child_full** _Unavailable_ †<br>
+⚠️ **bind_property** _Unavailable_ †
+⚠️ **bind_property_full** _Unavailable_ †
+⚠️ **bind_template_callback_full** _Unavailable_ †
+⚠️ **bind_template_child_full** _Unavailable_ †
 - #### 🔹 child Methods
 <a name="child-methods"></a>
-⚠️ **child_focus** _Unavailable_ †<br>
-⚠️ **child_get** _Unavailable_ †<br>
-⚠️ **child_get_property** _Unavailable_ †<br>
-⚠️ **child_notify** _Unavailable_ †<br>
-⚠️ **child_notify_by_pspec** _Unavailable_ †<br>
-⚠️ **child_set** _Unavailable_ †<br>
-⚠️ **child_set_property** _Unavailable_ †<br>
-⚠️ **child_type** _Unavailable_ †<br>
+⚠️ **child_focus** _Unavailable_ †
+⚠️ **child_get** _Unavailable_ †
+⚠️ **child_get_property** _Unavailable_ †
+⚠️ **child_notify** _Unavailable_ †
+⚠️ **child_notify_by_pspec** _Unavailable_ †
+⚠️ **child_set** _Unavailable_ †
+⚠️ **child_set_property** _Unavailable_ †
+⚠️ **child_type** _Unavailable_ †
 - #### 🔹 connect Methods
 <a name="connect-methods"></a>
-⚠️ **connect** _Unavailable_ †<br>
-⚠️ **connect_after** _Unavailable_ †<br>
-⚠️ **connect_data** _Unavailable_ †<br>
-⚠️ **connect_object** _Unavailable_ †<br>
-⚠️ **connect_object_after** _Unavailable_ †<br>
+⚠️ **connect** _Unavailable_ †
+⚠️ **connect_after** _Unavailable_ †
+⚠️ **connect_data** _Unavailable_ †
+⚠️ **connect_object** _Unavailable_ †
+⚠️ **connect_object_after** _Unavailable_ †
 - #### 🔹 create Methods
 <a name="create-methods"></a>
-⚠️ **create_pango_context** _Unavailable_ †<br>
-⚠️ **create_pango_layout** _Unavailable_ †<br>
+⚠️ **create_pango_context** _Unavailable_ †
+⚠️ **create_pango_layout** _Unavailable_ †
 - #### 🔹 custom Methods
 <a name="custom-methods"></a>
-⚠️ **custom_finished** _Unavailable_ †<br>
-⚠️ **custom_tag_end** _Unavailable_ †<br>
-⚠️ **custom_tag_start** _Unavailable_ †<br>
+⚠️ **custom_finished** _Unavailable_ †
+⚠️ **custom_tag_end** _Unavailable_ †
+⚠️ **custom_tag_start** _Unavailable_ †
 - #### 🔹 disconnect Methods
 <a name="disconnect-methods"></a>
-⚠️ **disconnect** _Unavailable_ †<br>
-⚠️ **disconnect_by_func** _Unavailable_ †<br>
+⚠️ **disconnect** _Unavailable_ †
+⚠️ **disconnect_by_func** _Unavailable_ †
 - #### 🔹 do Methods
 <a name="do-methods"></a>
-⚠️ **do_add** _Unavailable_ †<br>
-⚠️ **do_adjust_baseline_allocation** _Unavailable_ †<br>
-⚠️ **do_adjust_baseline_request** _Unavailable_ †<br>
-⚠️ **do_adjust_size_allocation** _Unavailable_ †<br>
-⚠️ **do_adjust_size_request** _Unavailable_ †<br>
-⚠️ **do_button_press_event** _Unavailable_ †<br>
-⚠️ **do_button_release_event** _Unavailable_ †<br>
-⚠️ **do_can_activate_accel** _Unavailable_ †<br>
-⚠️ **do_check_resize** _Unavailable_ †<br>
-⚠️ **do_child_notify** _Unavailable_ †<br>
-⚠️ **do_child_type** _Unavailable_ †<br>
-⚠️ **do_composite_name** _Unavailable_ †<br>
-⚠️ **do_composited_changed** _Unavailable_ †<br>
-⚠️ **do_compute_expand** _Unavailable_ †<br>
-⚠️ **do_configure_event** _Unavailable_ †<br>
-⚠️ **do_damage_event** _Unavailable_ †<br>
-⚠️ **do_delete_event** _Unavailable_ †<br>
-⚠️ **do_destroy** _Unavailable_ †<br>
-⚠️ **do_destroy_event** _Unavailable_ †<br>
-⚠️ **do_direction_changed** _Unavailable_ †<br>
-⚠️ **do_dispatch_child_properties_changed** _Unavailable_ †<br>
-⚠️ **do_drag_begin** _Unavailable_ †<br>
-⚠️ **do_drag_data_delete** _Unavailable_ †<br>
-⚠️ **do_drag_data_get** _Unavailable_ †<br>
-⚠️ **do_drag_data_received** _Unavailable_ †<br>
-⚠️ **do_drag_drop** _Unavailable_ †<br>
-⚠️ **do_drag_end** _Unavailable_ †<br>
-⚠️ **do_drag_failed** _Unavailable_ †<br>
-⚠️ **do_drag_leave** _Unavailable_ †<br>
-⚠️ **do_drag_motion** _Unavailable_ †<br>
-⚠️ **do_draw** _Unavailable_ †<br>
-⚠️ **do_draw_interior** _Unavailable_ †<br>
-⚠️ **do_enter_notify_event** _Unavailable_ †<br>
-⚠️ **do_event** _Unavailable_ †<br>
-⚠️ **do_focus** _Unavailable_ †<br>
-⚠️ **do_focus_in_event** _Unavailable_ †<br>
-⚠️ **do_focus_out_event** _Unavailable_ †<br>
-⚠️ **do_forall** _Unavailable_ †<br>
-⚠️ **do_get_accessible** _Unavailable_ †<br>
-⚠️ **do_get_child_property** _Unavailable_ †<br>
-⚠️ **do_get_path_for_child** _Unavailable_ †<br>
-⚠️ **do_get_preferred_height** _Unavailable_ †<br>
-⚠️ **do_get_preferred_height_and_baseline_for_width** _Unavailable_ †<br>
-⚠️ **do_get_preferred_height_for_width** _Unavailable_ †<br>
-⚠️ **do_get_preferred_width** _Unavailable_ †<br>
-⚠️ **do_get_preferred_width_for_height** _Unavailable_ †<br>
-⚠️ **do_get_request_mode** _Unavailable_ †<br>
-⚠️ **do_grab_broken_event** _Unavailable_ †<br>
-⚠️ **do_grab_focus** _Unavailable_ †<br>
-⚠️ **do_grab_notify** _Unavailable_ †<br>
-⚠️ **do_hide** _Unavailable_ †<br>
-⚠️ **do_hierarchy_changed** _Unavailable_ †<br>
-⚠️ **do_key_press_event** _Unavailable_ †<br>
-⚠️ **do_key_release_event** _Unavailable_ †<br>
-⚠️ **do_keynav_failed** _Unavailable_ †<br>
-⚠️ **do_leave_notify_event** _Unavailable_ †<br>
-⚠️ **do_map** _Unavailable_ †<br>
-⚠️ **do_map_event** _Unavailable_ †<br>
-⚠️ **do_mnemonic_activate** _Unavailable_ †<br>
-⚠️ **do_motion_notify_event** _Unavailable_ †<br>
-⚠️ **do_move_focus** _Unavailable_ †<br>
-⚠️ **do_parent_set** _Unavailable_ †<br>
-⚠️ **do_popup_menu** _Unavailable_ †<br>
-⚠️ **do_property_notify_event** _Unavailable_ †<br>
-⚠️ **do_proximity_in_event** _Unavailable_ †<br>
-⚠️ **do_proximity_out_event** _Unavailable_ †<br>
-⚠️ **do_query_tooltip** _Unavailable_ †<br>
-⚠️ **do_queue_draw_region** _Unavailable_ †<br>
-⚠️ **do_realize** _Unavailable_ †<br>
-⚠️ **do_remove** _Unavailable_ †<br>
-⚠️ **do_resource_set** _Unavailable_ †<br>
-⚠️ **do_screen_changed** _Unavailable_ †<br>
-⚠️ **do_scroll_event** _Unavailable_ †<br>
-⚠️ **do_selection_clear_event** _Unavailable_ †<br>
-⚠️ **do_selection_get** _Unavailable_ †<br>
-⚠️ **do_selection_notify_event** _Unavailable_ †<br>
-⚠️ **do_selection_received** _Unavailable_ †<br>
-⚠️ **do_selection_request_event** _Unavailable_ †<br>
-⚠️ **do_set_child_property** _Unavailable_ †<br>
-⚠️ **do_set_focus_child** _Unavailable_ †<br>
-⚠️ **do_show** _Unavailable_ †<br>
-⚠️ **do_show_all** _Unavailable_ †<br>
-⚠️ **do_show_help** _Unavailable_ †<br>
-⚠️ **do_size_allocate** _Unavailable_ †<br>
-⚠️ **do_state_changed** _Unavailable_ †<br>
-⚠️ **do_state_flags_changed** _Unavailable_ †<br>
-⚠️ **do_style_set** _Unavailable_ †<br>
-⚠️ **do_style_updated** _Unavailable_ †<br>
-⚠️ **do_touch_event** _Unavailable_ †<br>
-⚠️ **do_unmap** _Unavailable_ †<br>
-⚠️ **do_unmap_event** _Unavailable_ †<br>
-⚠️ **do_unrealize** _Unavailable_ †<br>
-⚠️ **do_visibility_notify_event** _Unavailable_ †<br>
-⚠️ **do_window_state_event** _Unavailable_ †<br>
+⚠️ **do_add** _Unavailable_ †
+⚠️ **do_adjust_baseline_allocation** _Unavailable_ †
+⚠️ **do_adjust_baseline_request** _Unavailable_ †
+⚠️ **do_adjust_size_allocation** _Unavailable_ †
+⚠️ **do_adjust_size_request** _Unavailable_ †
+⚠️ **do_button_press_event** _Unavailable_ †
+⚠️ **do_button_release_event** _Unavailable_ †
+⚠️ **do_can_activate_accel** _Unavailable_ †
+⚠️ **do_check_resize** _Unavailable_ †
+⚠️ **do_child_notify** _Unavailable_ †
+⚠️ **do_child_type** _Unavailable_ †
+⚠️ **do_composite_name** _Unavailable_ †
+⚠️ **do_composited_changed** _Unavailable_ †
+⚠️ **do_compute_expand** _Unavailable_ †
+⚠️ **do_configure_event** _Unavailable_ †
+⚠️ **do_damage_event** _Unavailable_ †
+⚠️ **do_delete_event** _Unavailable_ †
+⚠️ **do_destroy** _Unavailable_ †
+⚠️ **do_destroy_event** _Unavailable_ †
+⚠️ **do_direction_changed** _Unavailable_ †
+⚠️ **do_dispatch_child_properties_changed** _Unavailable_ †
+⚠️ **do_drag_begin** _Unavailable_ †
+⚠️ **do_drag_data_delete** _Unavailable_ †
+⚠️ **do_drag_data_get** _Unavailable_ †
+⚠️ **do_drag_data_received** _Unavailable_ †
+⚠️ **do_drag_drop** _Unavailable_ †
+⚠️ **do_drag_end** _Unavailable_ †
+⚠️ **do_drag_failed** _Unavailable_ †
+⚠️ **do_drag_leave** _Unavailable_ †
+⚠️ **do_drag_motion** _Unavailable_ †
+⚠️ **do_draw** _Unavailable_ †
+⚠️ **do_draw_interior** _Unavailable_ †
+⚠️ **do_enter_notify_event** _Unavailable_ †
+⚠️ **do_event** _Unavailable_ †
+⚠️ **do_focus** _Unavailable_ †
+⚠️ **do_focus_in_event** _Unavailable_ †
+⚠️ **do_focus_out_event** _Unavailable_ †
+⚠️ **do_forall** _Unavailable_ †
+⚠️ **do_get_accessible** _Unavailable_ †
+⚠️ **do_get_child_property** _Unavailable_ †
+⚠️ **do_get_path_for_child** _Unavailable_ †
+⚠️ **do_get_preferred_height** _Unavailable_ †
+⚠️ **do_get_preferred_height_and_baseline_for_width** _Unavailable_ †
+⚠️ **do_get_preferred_height_for_width** _Unavailable_ †
+⚠️ **do_get_preferred_width** _Unavailable_ †
+⚠️ **do_get_preferred_width_for_height** _Unavailable_ †
+⚠️ **do_get_request_mode** _Unavailable_ †
+⚠️ **do_grab_broken_event** _Unavailable_ †
+⚠️ **do_grab_focus** _Unavailable_ †
+⚠️ **do_grab_notify** _Unavailable_ †
+⚠️ **do_hide** _Unavailable_ †
+⚠️ **do_hierarchy_changed** _Unavailable_ †
+⚠️ **do_key_press_event** _Unavailable_ †
+⚠️ **do_key_release_event** _Unavailable_ †
+⚠️ **do_keynav_failed** _Unavailable_ †
+⚠️ **do_leave_notify_event** _Unavailable_ †
+⚠️ **do_map** _Unavailable_ †
+⚠️ **do_map_event** _Unavailable_ †
+⚠️ **do_mnemonic_activate** _Unavailable_ †
+⚠️ **do_motion_notify_event** _Unavailable_ †
+⚠️ **do_move_focus** _Unavailable_ †
+⚠️ **do_parent_set** _Unavailable_ †
+⚠️ **do_popup_menu** _Unavailable_ †
+⚠️ **do_property_notify_event** _Unavailable_ †
+⚠️ **do_proximity_in_event** _Unavailable_ †
+⚠️ **do_proximity_out_event** _Unavailable_ †
+⚠️ **do_query_tooltip** _Unavailable_ †
+⚠️ **do_queue_draw_region** _Unavailable_ †
+⚠️ **do_realize** _Unavailable_ †
+⚠️ **do_remove** _Unavailable_ †
+⚠️ **do_resource_set** _Unavailable_ †
+⚠️ **do_screen_changed** _Unavailable_ †
+⚠️ **do_scroll_event** _Unavailable_ †
+⚠️ **do_selection_clear_event** _Unavailable_ †
+⚠️ **do_selection_get** _Unavailable_ †
+⚠️ **do_selection_notify_event** _Unavailable_ †
+⚠️ **do_selection_received** _Unavailable_ †
+⚠️ **do_selection_request_event** _Unavailable_ †
+⚠️ **do_set_child_property** _Unavailable_ †
+⚠️ **do_set_focus_child** _Unavailable_ †
+⚠️ **do_show** _Unavailable_ †
+⚠️ **do_show_all** _Unavailable_ †
+⚠️ **do_show_help** _Unavailable_ †
+⚠️ **do_size_allocate** _Unavailable_ †
+⚠️ **do_state_changed** _Unavailable_ †
+⚠️ **do_state_flags_changed** _Unavailable_ †
+⚠️ **do_style_set** _Unavailable_ †
+⚠️ **do_style_updated** _Unavailable_ †
+⚠️ **do_touch_event** _Unavailable_ †
+⚠️ **do_unmap** _Unavailable_ †
+⚠️ **do_unmap_event** _Unavailable_ †
+⚠️ **do_unrealize** _Unavailable_ †
+⚠️ **do_visibility_notify_event** _Unavailable_ †
+⚠️ **do_window_state_event** _Unavailable_ †
 - #### 🔹 drag Methods
 <a name="drag-methods"></a>
-⚠️ **drag_begin** _Unavailable_ †<br>
-⚠️ **drag_begin_with_coordinates** _Unavailable_ †<br>
-⚠️ **drag_check_threshold** _Unavailable_ †<br>
-⚠️ **drag_dest_add_image_targets** _Unavailable_ †<br>
-⚠️ **drag_dest_add_text_targets** _Unavailable_ †<br>
-⚠️ **drag_dest_add_uri_targets** _Unavailable_ †<br>
-⚠️ **drag_dest_find_target** _Unavailable_ †<br>
-⚠️ **drag_dest_get_target_list** _Unavailable_ †<br>
-⚠️ **drag_dest_get_track_motion** _Unavailable_ †<br>
-⚠️ **drag_dest_set** _Unavailable_ †<br>
-⚠️ **drag_dest_set_proxy** _Unavailable_ †<br>
-⚠️ **drag_dest_set_target_list** _Unavailable_ †<br>
-⚠️ **drag_dest_set_track_motion** _Unavailable_ †<br>
-⚠️ **drag_dest_unset** _Unavailable_ †<br>
-⚠️ **drag_get_data** _Unavailable_ †<br>
-⚠️ **drag_highlight** _Unavailable_ †<br>
-⚠️ **drag_source_add_image_targets** _Unavailable_ †<br>
-⚠️ **drag_source_add_text_targets** _Unavailable_ †<br>
-⚠️ **drag_source_add_uri_targets** _Unavailable_ †<br>
-⚠️ **drag_source_get_target_list** _Unavailable_ †<br>
-⚠️ **drag_source_set** _Unavailable_ †<br>
-⚠️ **drag_source_set_icon_gicon** _Unavailable_ †<br>
-⚠️ **drag_source_set_icon_name** _Unavailable_ †<br>
-⚠️ **drag_source_set_icon_pixbuf** _Unavailable_ †<br>
-⚠️ **drag_source_set_icon_stock** _Unavailable_ †<br>
-⚠️ **drag_source_set_target_list** _Unavailable_ †<br>
-⚠️ **drag_source_unset** _Unavailable_ †<br>
-⚠️ **drag_unhighlight** _Unavailable_ †<br>
+⚠️ **drag_begin** _Unavailable_ †
+⚠️ **drag_begin_with_coordinates** _Unavailable_ †
+⚠️ **drag_check_threshold** _Unavailable_ †
+⚠️ **drag_dest_add_image_targets** _Unavailable_ †
+⚠️ **drag_dest_add_text_targets** _Unavailable_ †
+⚠️ **drag_dest_add_uri_targets** _Unavailable_ †
+⚠️ **drag_dest_find_target** _Unavailable_ †
+⚠️ **drag_dest_get_target_list** _Unavailable_ †
+⚠️ **drag_dest_get_track_motion** _Unavailable_ †
+⚠️ **drag_dest_set** _Unavailable_ †
+⚠️ **drag_dest_set_proxy** _Unavailable_ †
+⚠️ **drag_dest_set_target_list** _Unavailable_ †
+⚠️ **drag_dest_set_track_motion** _Unavailable_ †
+⚠️ **drag_dest_unset** _Unavailable_ †
+⚠️ **drag_get_data** _Unavailable_ †
+⚠️ **drag_highlight** _Unavailable_ †
+⚠️ **drag_source_add_image_targets** _Unavailable_ †
+⚠️ **drag_source_add_text_targets** _Unavailable_ †
+⚠️ **drag_source_add_uri_targets** _Unavailable_ †
+⚠️ **drag_source_get_target_list** _Unavailable_ †
+⚠️ **drag_source_set** _Unavailable_ †
+⚠️ **drag_source_set_icon_gicon** _Unavailable_ †
+⚠️ **drag_source_set_icon_name** _Unavailable_ †
+⚠️ **drag_source_set_icon_pixbuf** _Unavailable_ †
+⚠️ **drag_source_set_icon_stock** _Unavailable_ †
+⚠️ **drag_source_set_target_list** _Unavailable_ †
+⚠️ **drag_source_unset** _Unavailable_ †
+⚠️ **drag_unhighlight** _Unavailable_ †
 - #### 🔹 emit Methods
 <a name="emit-methods"></a>
-⚠️ **emit** _Unavailable_ †<br>
-⚠️ **emit_stop_by_name** _Unavailable_ †<br>
+⚠️ **emit** _Unavailable_ †
+⚠️ **emit_stop_by_name** _Unavailable_ †
 - #### 🔹 find Methods
 <a name="find-methods"></a>
-⚠️ **find_child_property** _Unavailable_ †<br>
-⚠️ **find_property** _Unavailable_ †<br>
-⚠️ **find_style_property** _Unavailable_ †<br>
+⚠️ **find_child_property** _Unavailable_ †
+⚠️ **find_property** _Unavailable_ †
+⚠️ **find_style_property** _Unavailable_ †
 - #### 🔹 freeze Methods
 <a name="freeze-methods"></a>
-⚠️ **freeze_child_notify** _Unavailable_ †<br>
-⚠️ **freeze_notify** _Unavailable_ †<br>
+⚠️ **freeze_child_notify** _Unavailable_ †
+⚠️ **freeze_notify** _Unavailable_ †
 - #### 🔹 get Methods
 <a name="get-methods"></a>
-⚠️ **get_accessible** _Unavailable_ †<br>
-⚠️ **get_action_group** _Unavailable_ †<br>
-⚠️ **get_allocated_baseline** _Unavailable_ †<br>
-⚠️ **get_allocated_height** _Unavailable_ †<br>
-⚠️ **get_allocated_size** _Unavailable_ †<br>
-⚠️ **get_allocated_width** _Unavailable_ †<br>
-⚠️ **get_allocation** _Unavailable_ †<br>
-⚠️ **get_ancestor** _Unavailable_ †<br>
-⚠️ **get_app_paintable** _Unavailable_ †<br>
-⚠️ **get_baseline_position** _Unavailable_ †<br>
-⚠️ **get_border_width** _Unavailable_ †<br>
-⚠️ **get_can_default** _Unavailable_ †<br>
-⚠️ **get_can_focus** _Unavailable_ †<br>
-⚠️ **get_center_widget** _Unavailable_ †<br>
-⚠️ **get_child_requisition** _Unavailable_ †<br>
-⚠️ **get_child_visible** _Unavailable_ †<br>
-⚠️ **get_children** _Unavailable_ †<br>
-⚠️ **get_clip** _Unavailable_ †<br>
-⚠️ **get_clipboard** _Unavailable_ †<br>
-⚠️ **get_composite_name** _Unavailable_ †<br>
-⚠️ **get_css_name** _Unavailable_ †<br>
-⚠️ **get_data** _Unavailable_ †<br>
-⚠️ **get_default_direction** _Unavailable_ †<br>
-⚠️ **get_default_style** _Unavailable_ †<br>
-⚠️ **get_device_enabled** _Unavailable_ †<br>
-⚠️ **get_device_events** _Unavailable_ †<br>
-⚠️ **get_direction** _Unavailable_ †<br>
-⚠️ **get_display** _Unavailable_ †<br>
-⚠️ **get_double_buffered** _Unavailable_ †<br>
-⚠️ **get_events** _Unavailable_ †<br>
-⚠️ **get_focus_chain** _Unavailable_ †<br>
-⚠️ **get_focus_child** _Unavailable_ †<br>
-⚠️ **get_focus_hadjustment** _Unavailable_ †<br>
-⚠️ **get_focus_on_click** _Unavailable_ †<br>
-⚠️ **get_focus_vadjustment** _Unavailable_ †<br>
-⚠️ **get_font_map** _Unavailable_ †<br>
-⚠️ **get_font_options** _Unavailable_ †<br>
-⚠️ **get_frame_clock** _Unavailable_ †<br>
-⚠️ **get_halign** _Unavailable_ †<br>
-⚠️ **get_has_tooltip** _Unavailable_ †<br>
-⚠️ **get_has_window** _Unavailable_ †<br>
-⚠️ **get_hexpand** _Unavailable_ †<br>
-⚠️ **get_hexpand_set** _Unavailable_ †<br>
-⚠️ **get_homogeneous** _Unavailable_ †<br>
-⚠️ **get_internal_child** _Unavailable_ †<br>
-⚠️ **get_label** _Unavailable_ †<br>
-⚠️ **get_mapped** _Unavailable_ †<br>
-⚠️ **get_margin_bottom** _Unavailable_ †<br>
-⚠️ **get_margin_end** _Unavailable_ †<br>
-⚠️ **get_margin_left** _Unavailable_ †<br>
-⚠️ **get_margin_right** _Unavailable_ †<br>
-⚠️ **get_margin_start** _Unavailable_ †<br>
-⚠️ **get_margin_top** _Unavailable_ †<br>
-⚠️ **get_modifier_mask** _Unavailable_ †<br>
-⚠️ **get_modifier_style** _Unavailable_ †<br>
-⚠️ **get_name** _Unavailable_ †<br>
-⚠️ **get_no_show_all** _Unavailable_ †<br>
-⚠️ **get_opacity** _Unavailable_ †<br>
-⚠️ **get_orientation** _Unavailable_ †<br>
-⚠️ **get_pango_context** _Unavailable_ †<br>
-⚠️ **get_parent** _Unavailable_ †<br>
-⚠️ **get_parent_window** _Unavailable_ †<br>
-⚠️ **get_path** _Unavailable_ †<br>
-⚠️ **get_path_for_child** _Unavailable_ †<br>
-⚠️ **get_pointer** _Unavailable_ †<br>
-⚠️ **get_preferred_height** _Unavailable_ †<br>
-⚠️ **get_preferred_height_and_baseline_for_width** _Unavailable_ †<br>
-⚠️ **get_preferred_height_for_width** _Unavailable_ †<br>
-⚠️ **get_preferred_size** _Unavailable_ †<br>
-⚠️ **get_preferred_width** _Unavailable_ †<br>
-⚠️ **get_preferred_width_for_height** _Unavailable_ †<br>
-⚠️ **get_properties** _Unavailable_ †<br>
-⚠️ **get_property** _Unavailable_ †<br>
-⚠️ **get_qdata** _Unavailable_ †<br>
-⚠️ **get_realized** _Unavailable_ †<br>
-⚠️ **get_receives_default** _Unavailable_ †<br>
-⚠️ **get_request_mode** _Unavailable_ †<br>
-⚠️ **get_requisition** _Unavailable_ †<br>
-⚠️ **get_resize_mode** _Unavailable_ †<br>
-⚠️ **get_resource** _Unavailable_ †<br>
-⚠️ **get_root_window** _Unavailable_ †<br>
-⚠️ **get_scale_factor** _Unavailable_ †<br>
-⚠️ **get_screen** _Unavailable_ †<br>
-⚠️ **get_sensitive** _Unavailable_ †<br>
-⚠️ **get_settings** _Unavailable_ †<br>
-⚠️ **get_size_request** _Unavailable_ †<br>
-⚠️ **get_spacing** _Unavailable_ †<br>
-⚠️ **get_state** _Unavailable_ †<br>
-⚠️ **get_state_flags** _Unavailable_ †<br>
-⚠️ **get_style** _Unavailable_ †<br>
-⚠️ **get_style_context** _Unavailable_ †<br>
-⚠️ **get_support_multidevice** _Unavailable_ †<br>
-⚠️ **get_template_child** _Unavailable_ †<br>
-⚠️ **get_tooltip_markup** _Unavailable_ †<br>
-⚠️ **get_tooltip_text** _Unavailable_ †<br>
-⚠️ **get_tooltip_window** _Unavailable_ †<br>
-⚠️ **get_toplevel** _Unavailable_ †<br>
-⚠️ **get_valign** _Unavailable_ †<br>
-⚠️ **get_valign_with_baseline** _Unavailable_ †<br>
-⚠️ **get_vexpand** _Unavailable_ †<br>
-⚠️ **get_vexpand_set** _Unavailable_ †<br>
-⚠️ **get_visible** _Unavailable_ †<br>
-⚠️ **get_visual** _Unavailable_ †<br>
-⚠️ **get_window** _Unavailable_ †<br>
+⚠️ **get_accessible** _Unavailable_ †
+⚠️ **get_action_group** _Unavailable_ †
+⚠️ **get_allocated_baseline** _Unavailable_ †
+⚠️ **get_allocated_height** _Unavailable_ †
+⚠️ **get_allocated_size** _Unavailable_ †
+⚠️ **get_allocated_width** _Unavailable_ †
+⚠️ **get_allocation** _Unavailable_ †
+⚠️ **get_ancestor** _Unavailable_ †
+⚠️ **get_app_paintable** _Unavailable_ †
+⚠️ **get_baseline_position** _Unavailable_ †
+⚠️ **get_border_width** _Unavailable_ †
+⚠️ **get_can_default** _Unavailable_ †
+⚠️ **get_can_focus** _Unavailable_ †
+⚠️ **get_center_widget** _Unavailable_ †
+⚠️ **get_child_requisition** _Unavailable_ †
+⚠️ **get_child_visible** _Unavailable_ †
+⚠️ **get_children** _Unavailable_ †
+⚠️ **get_clip** _Unavailable_ †
+⚠️ **get_clipboard** _Unavailable_ †
+⚠️ **get_composite_name** _Unavailable_ †
+⚠️ **get_css_name** _Unavailable_ †
+⚠️ **get_data** _Unavailable_ †
+⚠️ **get_default_direction** _Unavailable_ †
+⚠️ **get_default_style** _Unavailable_ †
+⚠️ **get_device_enabled** _Unavailable_ †
+⚠️ **get_device_events** _Unavailable_ †
+⚠️ **get_direction** _Unavailable_ †
+⚠️ **get_display** _Unavailable_ †
+⚠️ **get_double_buffered** _Unavailable_ †
+⚠️ **get_events** _Unavailable_ †
+⚠️ **get_focus_chain** _Unavailable_ †
+⚠️ **get_focus_child** _Unavailable_ †
+⚠️ **get_focus_hadjustment** _Unavailable_ †
+⚠️ **get_focus_on_click** _Unavailable_ †
+⚠️ **get_focus_vadjustment** _Unavailable_ †
+⚠️ **get_font_map** _Unavailable_ †
+⚠️ **get_font_options** _Unavailable_ †
+⚠️ **get_frame_clock** _Unavailable_ †
+⚠️ **get_halign** _Unavailable_ †
+⚠️ **get_has_tooltip** _Unavailable_ †
+⚠️ **get_has_window** _Unavailable_ †
+⚠️ **get_hexpand** _Unavailable_ †
+⚠️ **get_hexpand_set** _Unavailable_ †
+⚠️ **get_homogeneous** _Unavailable_ †
+⚠️ **get_internal_child** _Unavailable_ †
+⚠️ **get_label** _Unavailable_ †
+⚠️ **get_mapped** _Unavailable_ †
+⚠️ **get_margin_bottom** _Unavailable_ †
+⚠️ **get_margin_end** _Unavailable_ †
+⚠️ **get_margin_left** _Unavailable_ †
+⚠️ **get_margin_right** _Unavailable_ †
+⚠️ **get_margin_start** _Unavailable_ †
+⚠️ **get_margin_top** _Unavailable_ †
+⚠️ **get_modifier_mask** _Unavailable_ †
+⚠️ **get_modifier_style** _Unavailable_ †
+⚠️ **get_name** _Unavailable_ †
+⚠️ **get_no_show_all** _Unavailable_ †
+⚠️ **get_opacity** _Unavailable_ †
+⚠️ **get_orientation** _Unavailable_ †
+⚠️ **get_pango_context** _Unavailable_ †
+⚠️ **get_parent** _Unavailable_ †
+⚠️ **get_parent_window** _Unavailable_ †
+⚠️ **get_path** _Unavailable_ †
+⚠️ **get_path_for_child** _Unavailable_ †
+⚠️ **get_pointer** _Unavailable_ †
+⚠️ **get_preferred_height** _Unavailable_ †
+⚠️ **get_preferred_height_and_baseline_for_width** _Unavailable_ †
+⚠️ **get_preferred_height_for_width** _Unavailable_ †
+⚠️ **get_preferred_size** _Unavailable_ †
+⚠️ **get_preferred_width** _Unavailable_ †
+⚠️ **get_preferred_width_for_height** _Unavailable_ †
+⚠️ **get_properties** _Unavailable_ †
+⚠️ **get_property** _Unavailable_ †
+⚠️ **get_qdata** _Unavailable_ †
+⚠️ **get_realized** _Unavailable_ †
+⚠️ **get_receives_default** _Unavailable_ †
+⚠️ **get_request_mode** _Unavailable_ †
+⚠️ **get_requisition** _Unavailable_ †
+⚠️ **get_resize_mode** _Unavailable_ †
+⚠️ **get_resource** _Unavailable_ †
+⚠️ **get_root_window** _Unavailable_ †
+⚠️ **get_scale_factor** _Unavailable_ †
+⚠️ **get_screen** _Unavailable_ †
+⚠️ **get_sensitive** _Unavailable_ †
+⚠️ **get_settings** _Unavailable_ †
+⚠️ **get_size_request** _Unavailable_ †
+⚠️ **get_spacing** _Unavailable_ †
+⚠️ **get_state** _Unavailable_ †
+⚠️ **get_state_flags** _Unavailable_ †
+⚠️ **get_style** _Unavailable_ †
+⚠️ **get_style_context** _Unavailable_ †
+⚠️ **get_support_multidevice** _Unavailable_ †
+⚠️ **get_template_child** _Unavailable_ †
+⚠️ **get_tooltip_markup** _Unavailable_ †
+⚠️ **get_tooltip_text** _Unavailable_ †
+⚠️ **get_tooltip_window** _Unavailable_ †
+⚠️ **get_toplevel** _Unavailable_ †
+⚠️ **get_valign** _Unavailable_ †
+⚠️ **get_valign_with_baseline** _Unavailable_ †
+⚠️ **get_vexpand** _Unavailable_ †
+⚠️ **get_vexpand_set** _Unavailable_ †
+⚠️ **get_visible** _Unavailable_ †
+⚠️ **get_visual** _Unavailable_ †
+⚠️ **get_window** _Unavailable_ †
 - #### 🔹 grab Methods
 <a name="grab-methods"></a>
-⚠️ **grab_add** _Unavailable_ †<br>
-⚠️ **grab_default** _Unavailable_ †<br>
-⚠️ **grab_focus** _Unavailable_ †<br>
-⚠️ **grab_remove** _Unavailable_ †<br>
+⚠️ **grab_add** _Unavailable_ †
+⚠️ **grab_default** _Unavailable_ †
+⚠️ **grab_focus** _Unavailable_ †
+⚠️ **grab_remove** _Unavailable_ †
 - #### 🔹 handler Methods
 <a name="handler-methods"></a>
-⚠️ **handler_block** _Unavailable_ †<br>
-⚠️ **handler_block_by_func** _Unavailable_ †<br>
-⚠️ **handler_disconnect** _Unavailable_ †<br>
-⚠️ **handler_is_connected** _Unavailable_ †<br>
-⚠️ **handler_unblock** _Unavailable_ †<br>
-⚠️ **handler_unblock_by_func** _Unavailable_ †<br>
+⚠️ **handler_block** _Unavailable_ †
+⚠️ **handler_block_by_func** _Unavailable_ †
+⚠️ **handler_disconnect** _Unavailable_ †
+⚠️ **handler_is_connected** _Unavailable_ †
+⚠️ **handler_unblock** _Unavailable_ †
+⚠️ **handler_unblock_by_func** _Unavailable_ †
 - #### 🔹 has Methods
 <a name="has-methods"></a>
-⚠️ **has_default** _Unavailable_ †<br>
-⚠️ **has_focus** _Unavailable_ †<br>
-⚠️ **has_grab** _Unavailable_ †<br>
-⚠️ **has_rc_style** _Unavailable_ †<br>
-⚠️ **has_screen** _Unavailable_ †<br>
-⚠️ **has_visible_focus** _Unavailable_ †<br>
+⚠️ **has_default** _Unavailable_ †
+⚠️ **has_focus** _Unavailable_ †
+⚠️ **has_grab** _Unavailable_ †
+⚠️ **has_rc_style** _Unavailable_ †
+⚠️ **has_screen** _Unavailable_ †
+⚠️ **has_visible_focus** _Unavailable_ †
 - #### 🔹 hide Methods
 <a name="hide-methods"></a>
-⚠️ **hide** _Unavailable_ †<br>
-⚠️ **hide_on_delete** _Unavailable_ †<br>
+⚠️ **hide** _Unavailable_ †
+⚠️ **hide_on_delete** _Unavailable_ †
 - #### 🔹 install Methods
 <a name="install-methods"></a>
-⚠️ **install_child_properties** _Unavailable_ †<br>
-⚠️ **install_child_property** _Unavailable_ †<br>
-⚠️ **install_properties** _Unavailable_ †<br>
-⚠️ **install_property** _Unavailable_ †<br>
-⚠️ **install_style_property** _Unavailable_ †<br>
+⚠️ **install_child_properties** _Unavailable_ †
+⚠️ **install_child_property** _Unavailable_ †
+⚠️ **install_properties** _Unavailable_ †
+⚠️ **install_property** _Unavailable_ †
+⚠️ **install_style_property** _Unavailable_ †
 - #### 🔹 interface Methods
 <a name="interface-methods"></a>
-⚠️ **interface_find_property** _Unavailable_ †<br>
-⚠️ **interface_install_property** _Unavailable_ †<br>
-⚠️ **interface_list_properties** _Unavailable_ †<br>
+⚠️ **interface_find_property** _Unavailable_ †
+⚠️ **interface_install_property** _Unavailable_ †
+⚠️ **interface_list_properties** _Unavailable_ †
 - #### 🔹 is Methods
 <a name="is-methods"></a>
-⚠️ **is_ancestor** _Unavailable_ †<br>
-⚠️ **is_composited** _Unavailable_ †<br>
-⚠️ **is_drawable** _Unavailable_ †<br>
-⚠️ **is_floating** _Unavailable_ †<br>
-⚠️ **is_focus** _Unavailable_ †<br>
-⚠️ **is_sensitive** _Unavailable_ †<br>
-⚠️ **is_toplevel** _Unavailable_ †<br>
-⚠️ **is_visible** _Unavailable_ †<br>
+⚠️ **is_ancestor** _Unavailable_ †
+⚠️ **is_composited** _Unavailable_ †
+⚠️ **is_drawable** _Unavailable_ †
+⚠️ **is_floating** _Unavailable_ †
+⚠️ **is_focus** _Unavailable_ †
+⚠️ **is_sensitive** _Unavailable_ †
+⚠️ **is_toplevel** _Unavailable_ †
+⚠️ **is_visible** _Unavailable_ †
 - #### 🔹 list Methods
 <a name="list-methods"></a>
-⚠️ **list_accel_closures** _Unavailable_ †<br>
-⚠️ **list_action_prefixes** _Unavailable_ †<br>
-⚠️ **list_child_properties** _Unavailable_ †<br>
-⚠️ **list_mnemonic_labels** _Unavailable_ †<br>
-⚠️ **list_properties** _Unavailable_ †<br>
-⚠️ **list_style_properties** _Unavailable_ †<br>
+⚠️ **list_accel_closures** _Unavailable_ †
+⚠️ **list_action_prefixes** _Unavailable_ †
+⚠️ **list_child_properties** _Unavailable_ †
+⚠️ **list_mnemonic_labels** _Unavailable_ †
+⚠️ **list_properties** _Unavailable_ †
+⚠️ **list_style_properties** _Unavailable_ †
 - #### 🔹 modify Methods
 <a name="modify-methods"></a>
-⚠️ **modify_base** _Unavailable_ †<br>
-⚠️ **modify_bg** _Unavailable_ †<br>
-⚠️ **modify_cursor** _Unavailable_ †<br>
-⚠️ **modify_fg** _Unavailable_ †<br>
-⚠️ **modify_font** _Unavailable_ †<br>
-⚠️ **modify_style** _Unavailable_ †<br>
-⚠️ **modify_text** _Unavailable_ †<br>
+⚠️ **modify_base** _Unavailable_ †
+⚠️ **modify_bg** _Unavailable_ †
+⚠️ **modify_cursor** _Unavailable_ †
+⚠️ **modify_fg** _Unavailable_ †
+⚠️ **modify_font** _Unavailable_ †
+⚠️ **modify_style** _Unavailable_ †
+⚠️ **modify_text** _Unavailable_ †
 - #### 🔹 notify Methods
 <a name="notify-methods"></a>
-⚠️ **notify** _Unavailable_ †<br>
-⚠️ **notify_by_pspec** _Unavailable_ †<br>
+⚠️ **notify** _Unavailable_ †
+⚠️ **notify_by_pspec** _Unavailable_ †
 - #### 🔹 override Methods
 <a name="override-methods"></a>
-⚠️ **override_background_color** _Unavailable_ †<br>
-⚠️ **override_color** _Unavailable_ †<br>
-⚠️ **override_cursor** _Unavailable_ †<br>
-⚠️ **override_font** _Unavailable_ †<br>
-⚠️ **override_property** _Unavailable_ †<br>
-⚠️ **override_symbolic_color** _Unavailable_ †<br>
+⚠️ **override_background_color** _Unavailable_ †
+⚠️ **override_color** _Unavailable_ †
+⚠️ **override_cursor** _Unavailable_ †
+⚠️ **override_font** _Unavailable_ †
+⚠️ **override_property** _Unavailable_ †
+⚠️ **override_symbolic_color** _Unavailable_ †
 - #### 🔹 pack Methods
 <a name="pack-methods"></a>
-⚠️ **pack_end** _Unavailable_ †<br>
-⚠️ **pack_start** _Unavailable_ †<br>
+⚠️ **pack_end** _Unavailable_ †
+⚠️ **pack_start** _Unavailable_ †
 - #### 🔹 queue Methods
 <a name="queue-methods"></a>
-⚠️ **queue_allocate** _Unavailable_ †<br>
-⚠️ **queue_compute_expand** _Unavailable_ †<br>
-⚠️ **queue_draw** _Unavailable_ †<br>
-⚠️ **queue_draw_area** _Unavailable_ †<br>
-⚠️ **queue_draw_region** _Unavailable_ †<br>
-⚠️ **queue_resize** _Unavailable_ †<br>
-⚠️ **queue_resize_no_redraw** _Unavailable_ †<br>
+⚠️ **queue_allocate** _Unavailable_ †
+⚠️ **queue_compute_expand** _Unavailable_ †
+⚠️ **queue_draw** _Unavailable_ †
+⚠️ **queue_draw_area** _Unavailable_ †
+⚠️ **queue_draw_region** _Unavailable_ †
+⚠️ **queue_resize** _Unavailable_ †
+⚠️ **queue_resize_no_redraw** _Unavailable_ †
 - #### 🔹 ref Methods
 <a name="ref-methods"></a>
-⚠️ **ref** _Unavailable_ †<br>
-⚠️ **ref_sink** _Unavailable_ †<br>
+⚠️ **ref** _Unavailable_ †
+⚠️ **ref_sink** _Unavailable_ †
 - #### 🔹 remove Methods
 <a name="remove-methods"></a>
-⚠️ **remove** _Unavailable_ †<br>
-⚠️ **remove_accelerator** _Unavailable_ †<br>
-⚠️ **remove_mnemonic_label** _Unavailable_ †<br>
-⚠️ **remove_tick_callback** _Unavailable_ †<br>
+⚠️ **remove** _Unavailable_ †
+⚠️ **remove_accelerator** _Unavailable_ †
+⚠️ **remove_mnemonic_label** _Unavailable_ †
+⚠️ **remove_tick_callback** _Unavailable_ †
 - #### 🔹 render Methods
 <a name="render-methods"></a>
-⚠️ **render_icon** _Unavailable_ †<br>
-⚠️ **render_icon_pixbuf** _Unavailable_ †<br>
+⚠️ **render_icon** _Unavailable_ †
+⚠️ **render_icon_pixbuf** _Unavailable_ †
 - #### 🔹 replace Methods
 <a name="replace-methods"></a>
-⚠️ **replace_data** _Unavailable_ †<br>
-⚠️ **replace_qdata** _Unavailable_ †<br>
+⚠️ **replace_data** _Unavailable_ †
+⚠️ **replace_qdata** _Unavailable_ †
 - #### 🔹 reset Methods
 <a name="reset-methods"></a>
-⚠️ **reset_rc_styles** _Unavailable_ †<br>
-⚠️ **reset_style** _Unavailable_ †<br>
+⚠️ **reset_rc_styles** _Unavailable_ †
+⚠️ **reset_style** _Unavailable_ †
 - #### 🔹 send Methods
 <a name="send-methods"></a>
-⚠️ **send_expose** _Unavailable_ †<br>
-⚠️ **send_focus_change** _Unavailable_ †<br>
+⚠️ **send_expose** _Unavailable_ †
+⚠️ **send_focus_change** _Unavailable_ †
 - #### 🔹 set Methods
 <a name="set-methods"></a>
-⚠️ **set_accel_path** _Unavailable_ †<br>
-⚠️ **set_accessible_role** _Unavailable_ †<br>
-⚠️ **set_accessible_type** _Unavailable_ †<br>
-⚠️ **set_allocation** _Unavailable_ †<br>
-⚠️ **set_app_paintable** _Unavailable_ †<br>
-⚠️ **set_baseline_position** _Unavailable_ †<br>
-⚠️ **set_border_width** _Unavailable_ †<br>
-⚠️ **set_buildable_property** _Unavailable_ †<br>
-⚠️ **set_can_default** _Unavailable_ †<br>
-⚠️ **set_can_focus** _Unavailable_ †<br>
-⚠️ **set_center_widget** _Unavailable_ †<br>
-⚠️ **set_child_packing** _Unavailable_ †<br>
-⚠️ **set_child_visible** _Unavailable_ †<br>
-⚠️ **set_clip** _Unavailable_ †<br>
-⚠️ **set_composite_name** _Unavailable_ †<br>
-⚠️ **set_connect_func** _Unavailable_ †<br>
-⚠️ **set_css_name** _Unavailable_ †<br>
-⚠️ **set_data** _Unavailable_ †<br>
-⚠️ **set_default_direction** _Unavailable_ †<br>
-⚠️ **set_device_enabled** _Unavailable_ †<br>
-⚠️ **set_device_events** _Unavailable_ †<br>
-⚠️ **set_direction** _Unavailable_ †<br>
-⚠️ **set_double_buffered** _Unavailable_ †<br>
-⚠️ **set_events** _Unavailable_ †<br>
-⚠️ **set_focus_chain** _Unavailable_ †<br>
-⚠️ **set_focus_child** _Unavailable_ †<br>
-⚠️ **set_focus_hadjustment** _Unavailable_ †<br>
-⚠️ **set_focus_on_click** _Unavailable_ †<br>
-⚠️ **set_focus_vadjustment** _Unavailable_ †<br>
-⚠️ **set_font_map** _Unavailable_ †<br>
-⚠️ **set_font_options** _Unavailable_ †<br>
-⚠️ **set_halign** _Unavailable_ †<br>
-⚠️ **set_has_tooltip** _Unavailable_ †<br>
-⚠️ **set_has_window** _Unavailable_ †<br>
-⚠️ **set_hexpand** _Unavailable_ †<br>
-⚠️ **set_hexpand_set** _Unavailable_ †<br>
-⚠️ **set_homogeneous** _Unavailable_ †<br>
-⚠️ **set_mapped** _Unavailable_ †<br>
-⚠️ **set_margin_bottom** _Unavailable_ †<br>
-⚠️ **set_margin_end** _Unavailable_ †<br>
-⚠️ **set_margin_left** _Unavailable_ †<br>
-⚠️ **set_margin_right** _Unavailable_ †<br>
-⚠️ **set_margin_start** _Unavailable_ †<br>
-⚠️ **set_margin_top** _Unavailable_ †<br>
-⚠️ **set_name** _Unavailable_ †<br>
-⚠️ **set_no_show_all** _Unavailable_ †<br>
-⚠️ **set_opacity** _Unavailable_ †<br>
-⚠️ **set_orientation** _Unavailable_ †<br>
-⚠️ **set_parent** _Unavailable_ †<br>
-⚠️ **set_parent_window** _Unavailable_ †<br>
-⚠️ **set_properties** _Unavailable_ †<br>
-⚠️ **set_property** _Unavailable_ †<br>
-⚠️ **set_realized** _Unavailable_ †<br>
-⚠️ **set_reallocate_redraws** _Unavailable_ †<br>
-⚠️ **set_receives_default** _Unavailable_ †<br>
-⚠️ **set_redraw_on_allocate** _Unavailable_ †<br>
-⚠️ **set_resize_mode** _Unavailable_ †<br>
-⚠️ **set_resource** _Unavailable_ †<br>
-⚠️ **set_sensitive** _Unavailable_ †<br>
-⚠️ **set_size_request** _Unavailable_ †<br>
-⚠️ **set_spacing** _Unavailable_ †<br>
-⚠️ **set_state** _Unavailable_ †<br>
-⚠️ **set_state_flags** _Unavailable_ †<br>
-⚠️ **set_style** _Unavailable_ †<br>
-⚠️ **set_support_multidevice** _Unavailable_ †<br>
-⚠️ **set_template** _Unavailable_ †<br>
-⚠️ **set_template_from_resource** _Unavailable_ †<br>
-⚠️ **set_tooltip_markup** _Unavailable_ †<br>
-⚠️ **set_tooltip_text** _Unavailable_ †<br>
-⚠️ **set_tooltip_window** _Unavailable_ †<br>
-⚠️ **set_valign** _Unavailable_ †<br>
-⚠️ **set_vexpand** _Unavailable_ †<br>
-⚠️ **set_vexpand_set** _Unavailable_ †<br>
-⚠️ **set_visible** _Unavailable_ †<br>
-⚠️ **set_visual** _Unavailable_ †<br>
-⚠️ **set_window** _Unavailable_ †<br>
+⚠️ **set_accel_path** _Unavailable_ †
+⚠️ **set_accessible_role** _Unavailable_ †
+⚠️ **set_accessible_type** _Unavailable_ †
+⚠️ **set_allocation** _Unavailable_ †
+⚠️ **set_app_paintable** _Unavailable_ †
+⚠️ **set_baseline_position** _Unavailable_ †
+⚠️ **set_border_width** _Unavailable_ †
+⚠️ **set_buildable_property** _Unavailable_ †
+⚠️ **set_can_default** _Unavailable_ †
+⚠️ **set_can_focus** _Unavailable_ †
+⚠️ **set_center_widget** _Unavailable_ †
+⚠️ **set_child_packing** _Unavailable_ †
+⚠️ **set_child_visible** _Unavailable_ †
+⚠️ **set_clip** _Unavailable_ †
+⚠️ **set_composite_name** _Unavailable_ †
+⚠️ **set_connect_func** _Unavailable_ †
+⚠️ **set_css_name** _Unavailable_ †
+⚠️ **set_data** _Unavailable_ †
+⚠️ **set_default_direction** _Unavailable_ †
+⚠️ **set_device_enabled** _Unavailable_ †
+⚠️ **set_device_events** _Unavailable_ †
+⚠️ **set_direction** _Unavailable_ †
+⚠️ **set_double_buffered** _Unavailable_ †
+⚠️ **set_events** _Unavailable_ †
+⚠️ **set_focus_chain** _Unavailable_ †
+⚠️ **set_focus_child** _Unavailable_ †
+⚠️ **set_focus_hadjustment** _Unavailable_ †
+⚠️ **set_focus_on_click** _Unavailable_ †
+⚠️ **set_focus_vadjustment** _Unavailable_ †
+⚠️ **set_font_map** _Unavailable_ †
+⚠️ **set_font_options** _Unavailable_ †
+⚠️ **set_halign** _Unavailable_ †
+⚠️ **set_has_tooltip** _Unavailable_ †
+⚠️ **set_has_window** _Unavailable_ †
+⚠️ **set_hexpand** _Unavailable_ †
+⚠️ **set_hexpand_set** _Unavailable_ †
+⚠️ **set_homogeneous** _Unavailable_ †
+⚠️ **set_mapped** _Unavailable_ †
+⚠️ **set_margin_bottom** _Unavailable_ †
+⚠️ **set_margin_end** _Unavailable_ †
+⚠️ **set_margin_left** _Unavailable_ †
+⚠️ **set_margin_right** _Unavailable_ †
+⚠️ **set_margin_start** _Unavailable_ †
+⚠️ **set_margin_top** _Unavailable_ †
+⚠️ **set_name** _Unavailable_ †
+⚠️ **set_no_show_all** _Unavailable_ †
+⚠️ **set_opacity** _Unavailable_ †
+⚠️ **set_orientation** _Unavailable_ †
+⚠️ **set_parent** _Unavailable_ †
+⚠️ **set_parent_window** _Unavailable_ †
+⚠️ **set_properties** _Unavailable_ †
+⚠️ **set_property** _Unavailable_ †
+⚠️ **set_realized** _Unavailable_ †
+⚠️ **set_reallocate_redraws** _Unavailable_ †
+⚠️ **set_receives_default** _Unavailable_ †
+⚠️ **set_redraw_on_allocate** _Unavailable_ †
+⚠️ **set_resize_mode** _Unavailable_ †
+⚠️ **set_resource** _Unavailable_ †
+⚠️ **set_sensitive** _Unavailable_ †
+⚠️ **set_size_request** _Unavailable_ †
+⚠️ **set_spacing** _Unavailable_ †
+⚠️ **set_state** _Unavailable_ †
+⚠️ **set_state_flags** _Unavailable_ †
+⚠️ **set_style** _Unavailable_ †
+⚠️ **set_support_multidevice** _Unavailable_ †
+⚠️ **set_template** _Unavailable_ †
+⚠️ **set_template_from_resource** _Unavailable_ †
+⚠️ **set_tooltip_markup** _Unavailable_ †
+⚠️ **set_tooltip_text** _Unavailable_ †
+⚠️ **set_tooltip_window** _Unavailable_ †
+⚠️ **set_valign** _Unavailable_ †
+⚠️ **set_vexpand** _Unavailable_ †
+⚠️ **set_vexpand_set** _Unavailable_ †
+⚠️ **set_visible** _Unavailable_ †
+⚠️ **set_visual** _Unavailable_ †
+⚠️ **set_window** _Unavailable_ †
 - #### 🔹 show Methods
 <a name="show-methods"></a>
-⚠️ **show** _Unavailable_ †<br>
-⚠️ **show_all** _Unavailable_ †<br>
-⚠️ **show_now** _Unavailable_ †<br>
+⚠️ **show** _Unavailable_ †
+⚠️ **show_all** _Unavailable_ †
+⚠️ **show_now** _Unavailable_ †
 - #### 🔹 size Methods
 <a name="size-methods"></a>
-⚠️ **size_allocate** _Unavailable_ †<br>
-⚠️ **size_allocate_with_baseline** _Unavailable_ †<br>
-⚠️ **size_request** _Unavailable_ †<br>
+⚠️ **size_allocate** _Unavailable_ †
+⚠️ **size_allocate_with_baseline** _Unavailable_ †
+⚠️ **size_request** _Unavailable_ †
 - #### 🔹 steal Methods
 <a name="steal-methods"></a>
-⚠️ **steal_data** _Unavailable_ †<br>
-⚠️ **steal_qdata** _Unavailable_ †<br>
+⚠️ **steal_data** _Unavailable_ †
+⚠️ **steal_qdata** _Unavailable_ †
 - #### 🔹 stop Methods
 <a name="stop-methods"></a>
-⚠️ **stop_emission** _Unavailable_ †<br>
-⚠️ **stop_emission_by_name** _Unavailable_ †<br>
+⚠️ **stop_emission** _Unavailable_ †
+⚠️ **stop_emission_by_name** _Unavailable_ †
 - #### 🔹 style Methods
 <a name="style-methods"></a>
-⚠️ **style_attach** _Unavailable_ †<br>
-⚠️ **style_get_property** _Unavailable_ †<br>
+⚠️ **style_attach** _Unavailable_ †
+⚠️ **style_get_property** _Unavailable_ †
 - #### 🔹 thaw Methods
 <a name="thaw-methods"></a>
-⚠️ **thaw_child_notify** _Unavailable_ †<br>
-⚠️ **thaw_notify** _Unavailable_ †<br>
+⚠️ **thaw_child_notify** _Unavailable_ †
+⚠️ **thaw_notify** _Unavailable_ †
 - #### 🔹 unset Methods
 <a name="unset-methods"></a>
-⚠️ **unset_focus_chain** _Unavailable_ †<br>
-⚠️ **unset_state_flags** _Unavailable_ †<br>
+⚠️ **unset_focus_chain** _Unavailable_ †
+⚠️ **unset_state_flags** _Unavailable_ †
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **activate** _Unavailable_ †<br>
-⚠️ **can_activate_accel** _Unavailable_ †<br>
-⚠️ **chain** _Unavailable_ †<br>
-⚠️ **check_resize** _Unavailable_ †<br>
-⚠️ **class_path** _Unavailable_ †<br>
-⚠️ **compat_control** _Unavailable_ †<br>
-⚠️ **compute_expand** _Unavailable_ †<br>
-⚠️ **construct_child** _Unavailable_ †<br>
-⚠️ **destroy** _Unavailable_ †<br>
-⚠️ **destroyed** _Unavailable_ †<br>
-⚠️ **device_is_shadowed** _Unavailable_ †<br>
-⚠️ **draw** _Unavailable_ †<br>
-⚠️ **ensure_style** _Unavailable_ †<br>
-⚠️ **error_bell** _Unavailable_ †<br>
-⚠️ **event** _Unavailable_ †<br>
-⚠️ **forall** _Unavailable_ †<br>
-⚠️ **force_floating** _Unavailable_ †<br>
-⚠️ **foreach** _Unavailable_ †<br>
-⚠️ **getv** _Unavailable_ †<br>
-⚠️ **handle_border_width** _Unavailable_ †<br>
-⚠️ **in_destruction** _Unavailable_ †<br>
-⚠️ **init_template** _Unavailable_ †<br>
-⚠️ **input_shape_combine_region** _Unavailable_ †<br>
-⚠️ **insert_action_group** _Unavailable_ †<br>
-⚠️ **intersect** _Unavailable_ †<br>
-⚠️ **keynav_failed** _Unavailable_ †<br>
-⚠️ **map** _Unavailable_ †<br>
-⚠️ **mnemonic_activate** _Unavailable_ †<br>
-⚠️ **new** _Unavailable_ †<br>
-⚠️ **newv** _Unavailable_ †<br>
-⚠️ **parser_finished** _Unavailable_ †<br>
-⚠️ **path** _Unavailable_ †<br>
-⚠️ **pop_composite_child** _Unavailable_ †<br>
-⚠️ **propagate_draw** _Unavailable_ †<br>
-⚠️ **push_composite_child** _Unavailable_ †<br>
-⚠️ **query_child_packing** _Unavailable_ †<br>
-⚠️ **realize** _Unavailable_ †<br>
-⚠️ **region_intersect** _Unavailable_ †<br>
-⚠️ **register_window** _Unavailable_ †<br>
-⚠️ **reorder_child** _Unavailable_ †<br>
-⚠️ **reparent** _Unavailable_ †<br>
-⚠️ **resize_children** _Unavailable_ †<br>
-⚠️ **run_dispose** _Unavailable_ †<br>
-⚠️ **shape_combine_region** _Unavailable_ †<br>
-⚠️ **translate_coordinates** _Unavailable_ †<br>
-⚠️ **trigger_tooltip_query** _Unavailable_ †<br>
-⚠️ **unmap** _Unavailable_ †<br>
-⚠️ **unparent** _Unavailable_ †<br>
-⚠️ **unrealize** _Unavailable_ †<br>
-⚠️ **unref** _Unavailable_ †<br>
-⚠️ **unregister_window** _Unavailable_ †<br>
-⚠️ **watch_closure** _Unavailable_ †<br>
-⚠️ **weak_ref** _Unavailable_ †<br>
-### 🔒 Private Methods
-<a name="private-methods"></a>
-- #### 🔒 ref Methods
-<a name="ref-methods"></a>
-⚠️ **_ref** _Unavailable_ †<br>
-⚠️ **_ref_sink** _Unavailable_ †<br>
-- #### 🔒 unsupported Methods
-<a name="unsupported-methods"></a>
-⚠️ **_unsupported_data_method** _Unavailable_ †<br>
-⚠️ **_unsupported_method** _Unavailable_ †<br>
-- #### 🔒 ungrouped Methods
-<a name="ungrouped-methods"></a>
-⚠️ **_force_floating** _Unavailable_ †<br>
-⚠️ **_unref** _Unavailable_ †<br>
+⚠️ **activate** _Unavailable_ †
+⚠️ **can_activate_accel** _Unavailable_ †
+⚠️ **chain** _Unavailable_ †
+⚠️ **check_resize** _Unavailable_ †
+⚠️ **class_path** _Unavailable_ †
+⚠️ **compat_control** _Unavailable_ †
+⚠️ **compute_expand** _Unavailable_ †
+⚠️ **construct_child** _Unavailable_ †
+⚠️ **destroy** _Unavailable_ †
+⚠️ **destroyed** _Unavailable_ †
+⚠️ **device_is_shadowed** _Unavailable_ †
+⚠️ **draw** _Unavailable_ †
+⚠️ **ensure_style** _Unavailable_ †
+⚠️ **error_bell** _Unavailable_ †
+⚠️ **event** _Unavailable_ †
+⚠️ **forall** _Unavailable_ †
+⚠️ **force_floating** _Unavailable_ †
+⚠️ **foreach** _Unavailable_ †
+⚠️ **getv** _Unavailable_ †
+⚠️ **handle_border_width** _Unavailable_ †
+⚠️ **in_destruction** _Unavailable_ †
+⚠️ **init_template** _Unavailable_ †
+⚠️ **input_shape_combine_region** _Unavailable_ †
+⚠️ **insert_action_group** _Unavailable_ †
+⚠️ **intersect** _Unavailable_ †
+⚠️ **keynav_failed** _Unavailable_ †
+⚠️ **map** _Unavailable_ †
+⚠️ **mnemonic_activate** _Unavailable_ †
+⚠️ **new** _Unavailable_ †
+⚠️ **newv** _Unavailable_ †
+⚠️ **parser_finished** _Unavailable_ †
+⚠️ **path** _Unavailable_ †
+⚠️ **pop_composite_child** _Unavailable_ †
+⚠️ **propagate_draw** _Unavailable_ †
+⚠️ **push_composite_child** _Unavailable_ †
+⚠️ **query_child_packing** _Unavailable_ †
+⚠️ **realize** _Unavailable_ †
+⚠️ **region_intersect** _Unavailable_ †
+⚠️ **register_window** _Unavailable_ †
+⚠️ **reorder_child** _Unavailable_ †
+⚠️ **reparent** _Unavailable_ †
+⚠️ **resize_children** _Unavailable_ †
+⚠️ **run_dispose** _Unavailable_ †
+⚠️ **shape_combine_region** _Unavailable_ †
+⚠️ **translate_coordinates** _Unavailable_ †
+⚠️ **trigger_tooltip_query** _Unavailable_ †
+⚠️ **unmap** _Unavailable_ †
+⚠️ **unparent** _Unavailable_ †
+⚠️ **unrealize** _Unavailable_ †
+⚠️ **unref** _Unavailable_ †
+⚠️ **unregister_window** _Unavailable_ †
+⚠️ **watch_closure** _Unavailable_ †
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(self, *args, **kwargs)`<br>
-  - **__init_subclass__** `()`<br>
+  - **__init__** `(self, *args, **kwargs)`
+  - **__init_subclass__** `()`
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`<br>
-  - **__reduce_ex__** `(self, protocol, /)`<br>
+  - **__reduce__** `(self, /)`
+  - **__reduce_ex__** `(self, protocol, /)`
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **__bool__** _Unavailable_ †<br>
-  - **__class__** `(name, bases, dict_)`<br>
-⚠️ **__contains__** _Unavailable_ †<br>
-⚠️ **__copy__** _Unavailable_ †<br>
-⚠️ **__deepcopy__** _Unavailable_ †<br>
-  - **__delattr__** `(self, name, /)`<br>
-  - **__dir__** `(self, /)`<br>
-  - **__eq__** `(self, value, /)`<br>
-  - **__format__** `(self, format_spec, /)`<br>
-  - **__ge__** `(self, value, /)`<br>
-  - **__getattribute__** `(self, name, /)`<br>
-  - **__getstate__** `(self, /)`<br>
-  - **__gt__** `(self, value, /)`<br>
-  - **__hash__** `(self, /)`<br>
-⚠️ **__iter__** _Unavailable_ †<br>
-  - **__le__** `(self, value, /)`<br>
-⚠️ **__len__** _Unavailable_ †<br>
-  - **__lt__** `(self, value, /)`<br>
-  - **__ne__** `(self, value, /)`<br>
-  - **__new__** `(*args, **kwargs)`<br>
-  - **__repr__** `(self, /)`<br>
-  - **__setattr__** `(self, name, value, /)`<br>
-  - **__sizeof__** `(self, /)`<br>
-  - **__str__** `(self, /)`<br>
-  - **__subclasshook__** `(object, /)`<br>
-  - **__weakref__** `(*args, **kwargs)`<br>
-#### 🏷️ Properties
-<a name="properties-"></a>
-  - **orientation**: `GtkOrientation` (read/write)
-  - **name**: `gchararray` (read/write)
-  - **parent**: `GtkContainer` (read/write)
-  - **width  -request**: `gint` (read/write)
-  - **height  -request**: `gint` (read/write)
-  - **visible**: `gboolean` (read/write)
-  - **sensitive**: `gboolean` (read/write)
-  - **app  -paintable**: `gboolean` (read/write)
-  - **can  -focus**: `gboolean` (read/write)
-  - **has  -focus**: `gboolean` (read/write)
-  - **is  -focus**: `gboolean` (read/write)
-  - **focus  -on  -click**: `gboolean` (read/write)
-  - **can  -default**: `gboolean` (read/write)
-  - **has  -default**: `gboolean` (read/write)
-  - **receives  -default**: `gboolean` (read/write)
-  - **composite  -child**: `gboolean` (read)
-  - **style**: `GtkStyle` (read/write)
-  - **events**: `GdkEventMask` (read/write)
-  - **no  -show  -all**: `gboolean` (read/write)
-  - **has  -tooltip**: `gboolean` (read/write)
-  - **tooltip  -markup**: `gchararray` (read/write)
-  - **tooltip  -text**: `gchararray` (read/write)
-  - **window**: `GdkWindow` (read)
-  - **opacity**: `gdouble` (read/write)
-  - **double  -buffered**: `gboolean` (read/write)
-  - **halign**: `GtkAlign` (read/write)
-  - **valign**: `GtkAlign` (read/write)
-  - **margin  -left**: `gint` (read/write)
-  - **margin  -right**: `gint` (read/write)
-  - **margin  -start**: `gint` (read/write)
-  - **margin  -end**: `gint` (read/write)
-  - **margin  -top**: `gint` (read/write)
-  - **margin  -bottom**: `gint` (read/write)
-  - **margin**: `gint` (read/write)
-  - **hexpand**: `gboolean` (read/write)
-  - **vexpand**: `gboolean` (read/write)
-  - **hexpand  -set**: `gboolean` (read/write)
-  - **vexpand  -set**: `gboolean` (read/write)
-  - **expand**: `gboolean` (read/write)
-  - **scale  -factor**: `gint` (read)
-  - **border  -width**: `guint` (read/write)
-  - **resize  -mode**: `GtkResizeMode` (read/write)
-  - **child**: `GtkWidget` (write)
-  - **spacing**: `gint` (read/write)
-  - **homogeneous**: `gboolean` (read/write)
-  - **baseline  -position**: `GtkBaselinePosition` (read/write)
-  - **title**: `gchararray` (read/write)
-  - **label**: `gchararray` (read/write)
-  - **resource**: `GimpResource` (read/write)
-<br>
-#### 📣 Signals
-<a name="signals-"></a>
-<br>- None found
-
+⚠️ **__bool__** _Unavailable_ †
+  - **__class__** `(name, bases, dict_)`
+⚠️ **__contains__** _Unavailable_ †
+⚠️ **__copy__** _Unavailable_ †
+⚠️ **__deepcopy__** _Unavailable_ †
+  - **__delattr__** `(self, name, /)`
+  - **__dir__** `(self, /)`
+  - **__eq__** `(self, value, /)`
+  - **__format__** `(self, format_spec, /)`
+  - **__ge__** `(self, value, /)`
+  - **__getattribute__** `(self, name, /)`
+  - **__getstate__** `(self, /)`
+  - **__gt__** `(self, value, /)`
+  - **__hash__** `(self, /)`
+⚠️ **__iter__** _Unavailable_ †
+  - **__le__** `(self, value, /)`
+⚠️ **__len__** _Unavailable_ †
+  - **__lt__** `(self, value, /)`
+  - **__ne__** `(self, value, /)`
+  - **__new__** `(*args, **kwargs)`
+  - **__repr__** `(self, /)`
+  - **__setattr__** `(self, name, value, /)`
+  - **__sizeof__** `(self, /)`
+  - **__str__** `(self, /)`
+  - **__subclasshook__** `(object, /)`
+#### 📣 Signals<a name="signals-"></a>
+- None found
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.

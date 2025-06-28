@@ -11,84 +11,68 @@ layout: default
   - [ 🔹 Public:Methods](#public-methods)
     - [ 🔹 is:Methods](#is-methods)
     - [ 🔹 ungrouped:Methods](#ungrouped-methods)
-  - [ 🔒 Private:Methods](#private-methods)
-    - [ 🔒 ungrouped:Methods](#ungrouped-methods)
   - [ ⚙ Dunder:Methods](#dunder-methods)
     - [ ⚙ init:Methods](#init-methods)
     - [ ⚙ reduce:Methods](#reduce-methods)
     - [ ⚙ ungrouped:Methods](#ungrouped-methods)
-- [🔧 Properties](#properties-)
 - [🔧 Signals](#signals-)
 ## Class: Matrix3
 ### 🔹 Public Methods
 <a name="public-methods"></a>
 - #### 🔹 is Methods
 <a name="is-methods"></a>
-⚠️ **is_affine** _Unavailable_ †<br>
-⚠️ **is_diagonal** _Unavailable_ †<br>
-⚠️ **is_identity** _Unavailable_ †<br>
-⚠️ **is_simple** _Unavailable_ †<br>
+⚠️ **is_affine** _Unavailable_ †
+⚠️ **is_diagonal** _Unavailable_ †
+⚠️ **is_identity** _Unavailable_ †
+⚠️ **is_simple** _Unavailable_ †
 - #### 🔹 ungrouped Methods
 <a name="ungrouped-methods"></a>
-⚠️ **affine** _Unavailable_ †<br>
-⚠️ **copy** _Unavailable_ †<br>
-⚠️ **determinant** _Unavailable_ †<br>
-⚠️ **equal** _Unavailable_ †<br>
-⚠️ **identity** _Unavailable_ †<br>
-⚠️ **invert** _Unavailable_ †<br>
-⚠️ **mult** _Unavailable_ †<br>
-⚠️ **rotate** _Unavailable_ †<br>
-⚠️ **scale** _Unavailable_ †<br>
-⚠️ **transform_point** _Unavailable_ †<br>
-⚠️ **translate** _Unavailable_ †<br>
-⚠️ **xshear** _Unavailable_ †<br>
-⚠️ **yshear** _Unavailable_ †<br>
-### 🔒 Private Methods
-<a name="private-methods"></a>
-- #### 🔒 ungrouped Methods
-<a name="ungrouped-methods"></a>
-⚠️ **_clear_boxed** _Unavailable_ †<br>
+⚠️ **affine** _Unavailable_ †
+⚠️ **copy** _Unavailable_ †
+⚠️ **determinant** _Unavailable_ †
+⚠️ **equal** _Unavailable_ †
+⚠️ **identity** _Unavailable_ †
+⚠️ **invert** _Unavailable_ †
+⚠️ **mult** _Unavailable_ †
+⚠️ **rotate** _Unavailable_ †
+⚠️ **scale** _Unavailable_ †
+⚠️ **transform_point** _Unavailable_ †
+⚠️ **translate** _Unavailable_ †
+⚠️ **xshear** _Unavailable_ †
 ### ⚙ Dunder Methods
 <a name="dunder-methods"></a>
 - #### ⚙ init Methods
 <a name="init-methods"></a>
-  - **__init__** `(self, /, *args, **kwargs)`<br>
-  - **__init_subclass__** `()`<br>
+  - **__init__** `(self, /, *args, **kwargs)`
+  - **__init_subclass__** `()`
 - #### ⚙ reduce Methods
 <a name="reduce-methods"></a>
-  - **__reduce__** `(self, /)`<br>
-  - **__reduce_ex__** `(self, protocol, /)`<br>
+  - **__reduce__** `(self, /)`
+  - **__reduce_ex__** `(self, protocol, /)`
 - #### ⚙ ungrouped Methods
 <a name="ungrouped-methods"></a>
-  - **__class__** `(name, bases, dict_)`<br>
-  - **__delattr__** `(self, name, /)`<br>
-  - **__dir__** `(self, /)`<br>
-  - **__eq__** `(self, value, /)`<br>
-  - **__format__** `(self, format_spec, /)`<br>
-  - **__ge__** `(self, value, /)`<br>
-  - **__getattribute__** `(self, name, /)`<br>
-  - **__getstate__** `(self, /)`<br>
-  - **__gt__** `(self, value, /)`<br>
-  - **__hash__** `(self, /)`<br>
-  - **__le__** `(self, value, /)`<br>
-  - **__lt__** `(self, value, /)`<br>
-  - **__ne__** `(self, value, /)`<br>
-  - **__new__** `(*args, **kwargs)`<br>
-  - **__repr__** `(self, /)`<br>
-  - **__setattr__** `(self, name, value, /)`<br>
-  - **__sizeof__** `(self, /)`<br>
-  - **__str__** `(self, /)`<br>
-  - **__subclasshook__** `(object, /)`<br>
-  - **__weakref__** `(*args, **kwargs)`<br>
-#### 🏷️ Properties
-<a name="properties-"></a>
-_No properties found_
-<br>
+  - **__class__** `(name, bases, dict_)`
+  - **__delattr__** `(self, name, /)`
+  - **__dir__** `(self, /)`
+  - **__eq__** `(self, value, /)`
+  - **__format__** `(self, format_spec, /)`
+  - **__ge__** `(self, value, /)`
+  - **__getattribute__** `(self, name, /)`
+  - **__getstate__** `(self, /)`
+  - **__gt__** `(self, value, /)`
+  - **__hash__** `(self, /)`
+  - **__le__** `(self, value, /)`
+  - **__lt__** `(self, value, /)`
+  - **__ne__** `(self, value, /)`
+  - **__new__** `(*args, **kwargs)`
+  - **__repr__** `(self, /)`
+  - **__setattr__** `(self, name, value, /)`
+  - **__sizeof__** `(self, /)`
+  - **__str__** `(self, /)`
+  - **__subclasshook__** `(object, /)`
 #### 📣 Signals
 <a name="signals-"></a>
-_No signal metadata found (not exposed by GI)_
-<br>- None found
-
+_No signal metadata found (not exposed by GI)_- None found
 
 † Methods marked as "_Unavailable_" exist at the C/GObject layer but are not callable via GIMP Python introspection.  
 These may become accessible in future releases or via plugin-level extensions.
