@@ -8,7 +8,7 @@ Public documentation for A Cubed's GIMP 3 automation tools and plugins. Expectat
 
 > [![GitHub stars](https://img.shields.io/github/stars/aaabscom/a3bs-public.svg)](https://github.com/aaabscom/a3bs-public/stargazers)
 
-[![Support A³BS on Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-0f6065?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aaabscom)
+[![Support A³BS on Ko-fi](https://img.shields.io/badge/Support%20A³BS%20on%20Ko--fi-0f6065?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aaabscom)
 
 Help support the A³BS GIMP 3 documentation project!  
 Every donation helps us build better tools for the open-source creative community. 🙌
