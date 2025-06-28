@@ -16,13 +16,13 @@ body {
 }
 
 a {
-  color: #a2d2ff;
+  color: #509a89;
   text-decoration: none;
 }
 
 a:hover {
   color: #08a1fe;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul {
@@ -35,14 +35,13 @@ li {
 }
 
 .nav-wrapper a {
-  color: #ffffff;
+  color: #509a89;
   font-weight: 500;
   text-decoration: none;
 }
 
 .nav-wrapper a:hover {
   color: #08a1fe;
-  text-decoration: underline;
 }
 
 .nav-wrapper {
