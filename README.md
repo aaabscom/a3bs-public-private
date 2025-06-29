@@ -2,11 +2,11 @@
 
 Public documentation for A Cubed's GIMP 3 automation tools and plugins. Expectations include structured, versioned documentation for the GIMP 3 Python plugin ecosystem created by **A Cubed Business Solutions** (A³BS).
 
-📘 [View Live Docs](https://aaabscom.github.io/a3bs-public/)
+📘 [View Live Docs](https://aaabscom.github.io{{ site.baseurl }}/)
 
-> ⭐ If you find this project helpful, please consider [starring it](https://github.com/aaabscom/a3bs-public) to support visibility and development!
+> ⭐ If you find this project helpful, please consider [starring it](https://github.com/aaabscom/{{ site.baseurl }}) to support visibility and development!
 >
-> [![GitHub stars](https://img.shields.io/github/stars/aaabscom/a3bs-public.svg)](https://github.com/aaabscom/a3bs-public/stargazers)
+> [![GitHub stars](https://img.shields.io/github/stars/aaabscom{{ site.baseurl }}.svg)](https://github.com/aaabscom{{ site.baseurl }}/stargazers)
 
 [![Support A³BS on Ko-fi](https://img.shields.io/badge/Support%20A³BS%20on%20Ko--fi-0f6065?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/aaabscom)
 
@@ -17,7 +17,7 @@ Every donation helps us build better tools for the open-source creative communit
 ## 📂 Structure
 
 ```plaintext
-a3bs-public/
+{{ site.baseurl }}/
 ├── _config.yaml           # GitHub Pages config
 ├── index.md               # Main landing page (merged intro + links)
 ├── assets/                # Site assets (CSS, images, favicon, etc.)
@@ -55,7 +55,7 @@ Ensure the following exists at the repo root:
 Baseline 0 committed. `a3bs-clean/` is fully synchronized and documented.
 
 
-📄 View the live docs site: [GitHub Pages](https://aaabscom.github.io/a3bs-public/)
+📄 View the live docs site: [GitHub Pages](https://aaabscom.github.io{{ site.baseurl }}/)
 
 ---
 

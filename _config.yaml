@@ -4,6 +4,7 @@ include:
   - docs/gimp/arch/Gimp/*.a3d.md
   - docs/gimp/arch/Gegl/*.a3d.md
   - docs/gimp/arch/GimpUi/*.a3d.md
+baseurl: "/a3bs-public-private"
 title: A Cubed GIMP Docs
 description: GIMP 3 Python and PDB class references by A³BS
 markdown: kramdown
