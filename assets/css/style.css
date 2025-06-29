@@ -1,5 +1,5 @@
 body {
-  background-image: url('{{ site.baseurl }}/assets/images/urb2.webp');
+  background-image: url('/a3bs-public-private/assets/images/urb2.webp');
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
